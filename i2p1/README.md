@@ -1,2 +1,6 @@
 # Introduction to Programming (I)
-Introduction to Programming (I) in Dept. of Math, NTHU
+
+這裡放著程式設計一的教材 markdown 檔案
+網頁版可以連到以下的連結
+
+https://stevenokm.github.io/i2p-nthu-math/i2p1/
