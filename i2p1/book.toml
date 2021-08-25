@@ -1,6 +1,7 @@
 [book]
 authors = ["Yi-Wen Hung"]
-language = "en"
-multilingual = false
+language = "zh-TW"
+multilingual = true
 src = "src"
 title = "Introduction to Programming (I)"
+description = "程式設計(一)教材"
