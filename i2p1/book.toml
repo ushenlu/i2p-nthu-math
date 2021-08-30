@@ -5,3 +5,7 @@ multilingual = true
 src = "src"
 title = "Introduction to Programming (I)"
 description = "程式設計(一)教材"
+
+[output.html]
+mathjax-support = true
+edit-url-template = "https://github.com/stevenokm/i2p-nthu-math/edit/main/i2p1/{path}"
