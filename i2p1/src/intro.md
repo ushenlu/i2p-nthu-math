@@ -14,7 +14,7 @@ Each theme will be instructed with examples and hands-on labs in-class or off-cl
 
 ## 參考書籍 (References)
 
-[國立清華大學開放式課程OpenCourseWare(NTHU, OCW) - 計算機程式設計一(遠距教學版)](https://ocw.nthu.edu.tw/ocw/index.php?page=course&cid=268)
+[國立清華大學開放式課程OpenCourseWare(NTHU, OCW) - 計算機程式設計一(資工版)](https://ocw.nthu.edu.tw/ocw/index.php?page=course&cid=240)
 
 [Introduction to C++ | Electrical Engineering and Computer Science | MIT OpenCourseWare](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-introduction-to-c-january-iap-2011/)
 
@@ -23,6 +23,8 @@ Each theme will be instructed with examples and hands-on labs in-class or off-cl
 [Effective Programming in C and C++ | Electrical Engineering and Computer Science | MIT OpenCourseWare](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s096-effective-programming-in-c-and-c-january-iap-2014/index.htm)
 
 ## 教學方式 (Teaching Method)
+
+[//]: # (改成混和教學, 授課可以用 youtube or teams or 現場, 回答作業問題可以用 eeclass or 約時間 teams or 現場)
 
 透過講義解說各主題的實作技巧，由學生練習、測試與完成相關之課堂實作或作業。
 
