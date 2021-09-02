@@ -4,7 +4,7 @@
 
 本課程之內容包括：C/C++ 語言基礎語法、程式寫作技巧與觀念及實作範例。透過課堂解釋實作範例搭配作業練習各主題的語法或技巧。
 
-The course will introduce the basic of C/C++ and the concepts and skills of programming.
+The course will introduce the basics of C/C++ and the concepts and skills of programming.
 Each theme will be instructed with examples and hands-on labs in-class or off-class.
 
 ## 指定用書 (Text Books)
@@ -24,12 +24,17 @@ Each theme will be instructed with examples and hands-on labs in-class or off-cl
 
 ## 教學方式 (Teaching Method)
 
-[//]: # (改成混和教學, 授課可以用 youtube or teams or 現場, 回答作業問題可以用 eeclass or 約時間 teams or 現場)
-
 透過講義解說各主題的實作技巧，由學生練習、測試與完成相關之課堂實作或作業。
+課堂會採用實體及線上混合教學，學生可在滿足防疫規定下參加現場授課，同時於線上平台直播，同學也可同步於線上平台留言發問。
+學生課後可透過 eeclass 討論區及預約時段與授課老師及助教討論。
 
 The course will introduce each theme with lecture notes.
-Students will practice each theme with homeworks and hands-on labs in-class or off-class.
+Students will practice each theme with Homeworks and hands-on labs in-class or off-class.
+The course will hold both physically and online.
+Students can attend class physically under Taiwan CDC COVID-19 guideline.
+Also, the course will stream on online streaming platform(s).
+Students can discuss in real-time on the online streaming platform(s).
+After class, students can use the discussion forum in the NTHU eeclass or make a reservation with instructor or TA.
 
 ## 教學進度 (Syllabus)
 
@@ -67,6 +72,8 @@ Students will practice each theme with homeworks and hands-on labs in-class or o
 | Week 18     | 期末評量                       | Final exam                   |
 
 ## 成績考核 (Evaluation)
+
+暫定 (Tentative)
 
 學期成績 (Grade) ＝ 作業/實作 (Homework/Lab), 30% ＋ 期中考 (Midterm exam), 30% ＋ 期末考 (Final exam), 40 % + Bonus, 5%
 
