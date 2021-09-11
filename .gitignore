@@ -9,6 +9,7 @@ node_modules
 
 # Book build output
 _book
+book
 
 # eBook build output
 *.epub
@@ -16,3 +17,5 @@ _book
 *.pdf
 
 tags*
+
+.DS_Store

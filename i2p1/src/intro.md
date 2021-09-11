@@ -38,6 +38,7 @@ After class, students can use the discussion forum in the NTHU eeclass or make a
 
 ## 教學進度 (Syllabus)
 
+(9/11 updated)
 週次皆為暫定安排，會依實際授課情形調整。
 
 | 週次 (Week) | 主題 (Theme)                   |                              |
@@ -54,14 +55,14 @@ After class, students can use the discussion forum in the NTHU eeclass or make a
 | Week 5      | 分支敘述                       | Branch Statement             |
 |             | 迴圈敘述(1)                    | Loop Statement(1)            |
 | Week 6      | 迴圈敘述(2)                    | Loop Statement(2)            |
-| Week 7      | 函式 & 參考(1)                 | Function & Reference(1)      |
-| Week 8      | 函式 & 參考(2)                 | Function & Reference(2)      |
-| Week 9      | 函式 & 參考(3)                 | Function & Reference(3)      |
-| Week 10     | 期中評量                       | Midterm exam                 |
-| Week 11     | 陣列與字串(1)                  | Array & String(1)            |
-| Week 12     | 陣列與字串(2)                  | Array & String(2)            |
-| Week 13     | 陣列與字串(3)                  | Array & String(3)            |
+| Week 7      | 陣列與字串(1)                  | Array & String(1)            |
+| Week 8      | 陣列與字串(2)                  | Array & String(2)            |
+| Week 9      | 陣列與字串(3)                  | Array & String(3)            |
 |             | 位元處裡                       | Bit manipulation             |
+| Week 10     | 期中評量                       | Midterm exam                 |
+| Week 11     | 函式 & 參考(1)                 | Function & Reference(1)      |
+| Week 12     | 函式 & 參考(2)                 | Function & Reference(2)      |
+| Week 13     | 函式 & 參考(3)                 | Function & Reference(3)      |
 | Week 14     | 結構(1)                        | Structure(1)                 |
 | Week 15     | 結構(2)                        | Structure(2)                 |
 |             | 檔案                           | File                         |
@@ -73,7 +74,7 @@ After class, students can use the discussion forum in the NTHU eeclass or make a
 
 ## 成績考核 (Evaluation)
 
-暫定 (Tentative)
+暫定，會依實際授課情形調整。 (Tentative, will change during the course)
 
 學期成績 (Grade) ＝ 作業/實作 (Homework/Lab), 30% ＋ 期中考 (Midterm exam), 30% ＋ 期末考 (Final exam), 40 % + Bonus, 5%
 
@@ -81,18 +82,37 @@ After class, students can use the discussion forum in the NTHU eeclass or make a
 
 課程網頁 (Course website): [https://stevenokm.github.io/i2p-nthu-math/i2p1](https://stevenokm.github.io/i2p-nthu-math/i2p1)
 
+## 課程資訊
+
+* 課程上課地點：
+    * 綜三館 315 電腦教室 (座位47人，待系上防疫指引更新可出席人數)
+    * Youtube (Link: TBA)
+    * Teams (Link: TBA)
+* 本課程開放加簽，原則上限制人數為 50 人，且參加實體課程需配合防疫規定。
+    * 請使用電子加簽系統加簽。
+    * 目前開放上限為 47 人，並另有 3 人須審核加簽名額。
+    * 外系同學可於加退選時段 (9/12 12:00 - 9/30 09:00) 加選課程。
+* 本課程有 Teams 群組，同學可多加利用群組進行討論。
 
 ## 作業
 
-每週作業會公布在課程網頁上，並使用 eeclass 平台繳交作業
+* 每週作業會公布在課程網頁上，並使用 eeclass 平台繳交作業。
+    * eeclass 連結: [https://eeclass.nthu.edu.tw/course/5088](https://eeclass.nthu.edu.tw/course/5088)
+* 作業會使用自動化工具檢查，若有批改上有問題可與助教詢問。
+* 作業抄襲一律 0 分計算，並且不計入繳交次數。
+* 作業須準時繳交，遲交則得到原始成績 80% 的分數。
 
-eeclass 連結: [https://eeclass.nthu.edu.tw/course/5088](https://eeclass.nthu.edu.tw/course/5088)
+## 期中 / 期末評量
+
+* 期中 / 期末評量採斷網上機測試。
+    * 期中 / 期末評量會視疫情變化調整為其他方案。
+* 參加期中 / 期末評量需繳交評量前所有作業，未完整繳交該次評量前作業的同學不得參加。
 
 ## TA infos
 
-TBA
+許廷碩 [E-mail: TBA](mailto:xxx@xxx.xxx)
 
-## 上課錄影檔
+## 上課實況/錄影檔
 
 TBA
 
