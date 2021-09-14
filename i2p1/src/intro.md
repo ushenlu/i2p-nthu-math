@@ -9,7 +9,7 @@ Each theme will be instructed with examples and hands-on labs in-class or off-cl
 
 ## 指定用書 (Text Books)
 
-1.  S. Prata, C PRIMER PLUS
+1.  S. Prata, C PRIMER PLUS (自由購買)
 2.  課程講義 (Lecture notes)
 
 ## 參考書籍 (References)
