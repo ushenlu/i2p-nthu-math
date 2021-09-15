@@ -19,3 +19,4 @@ book
 tags*
 
 .DS_Store
+fix_permission.sh
