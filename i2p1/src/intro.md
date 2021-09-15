@@ -90,9 +90,11 @@ After class, students can use the discussion forum in the NTHU eeclass or make a
     * Teams (Link: TBA)
 * 本課程開放加簽，原則上限制人數為 50 人，且參加實體課程需配合防疫規定。
     * 請使用電子加簽系統加簽。
-    * 目前開放上限為 47 人，並另有 3 人須審核加簽名額。
-    * 外系同學可於加退選時段 (9/12 12:00 - 9/30 09:00) 加選課程。
-* 本課程有 Teams 群組，同學可多加利用群組進行討論。
+    * 目前開放上限為本系生 47 人，並另有 10 人須審核加簽名額。
+    * 外系同學可線上加簽系統加選課程。
+* 本課程有 Teams 團隊，需在申請完學校的 Office 365 帳號後即可使用連結加入，同學可多加利用團隊進行討論。
+    * 申請方式: [Office 365 服務 (nthu.edu.tw)](https://learning.site.nthu.edu.tw/p/412-1319-12292.php?Lang=zh-tw)
+    * 外校同學可提供 office 365 帳號給助教協助加入團隊。
 
 ## 作業
 
@@ -110,11 +112,12 @@ After class, students can use the discussion forum in the NTHU eeclass or make a
 
 ## TA infos
 
-許廷碩 [E-mail: TBA](mailto:xxx@xxx.xxx)
+許廷碩 [E-mail: tim890727@gmail.com](mailto:tim890727@gmail.com)
+TA Hours:
 
 ## 上課實況/錄影檔
 
-TBA
+Youtube (Link: TBA)
 
 ## Bonus
 
