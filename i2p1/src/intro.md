@@ -86,8 +86,8 @@ After class, students can use the discussion forum in the NTHU eeclass or make a
 
 * 課程上課地點：
     * 綜三館 315 電腦教室 (座位47人，待系上防疫指引更新可出席人數)
-    * Youtube (Link: TBA)
-    * Teams (Link: TBA)
+    * Youtube (Link: [上課錄影 - YouTube](https://www.youtube.com/playlist?list=PLEpArVdL-rlK1cLK7yxYcNHdL1rsvs5jB))
+    * Teams (團隊代碼: 0l2nz9s)
 * 本課程開放加簽，原則上限制人數為 50 人，且參加實體課程需配合防疫規定。
     * 請使用電子加簽系統加簽。
     * 目前開放上限為本系大一生 47 人，並另有 10 人須審核加簽名額。
@@ -114,11 +114,11 @@ After class, students can use the discussion forum in the NTHU eeclass or make a
 
 許廷碩 [E-mail: tim890727@gmail.com](mailto:tim890727@gmail.com)
 
-TA Hours:
+TA Hours: TBA
 
 ## 上課實況/錄影檔
 
-Youtube (Link: TBA)
+Youtube (Link: [上課錄影 - YouTube](https://www.youtube.com/playlist?list=PLEpArVdL-rlK1cLK7yxYcNHdL1rsvs5jB))
 
 ## Bonus
 
