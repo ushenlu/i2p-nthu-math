@@ -85,7 +85,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="intro.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">2.</strong> Lecture 1-1: Introduction to Programming &amp; C</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">3.</strong> Lecture 1-2: Formatted Input/Output (1)</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">4.</strong> Lab 1: Hello Wolrd!</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">4.1.</strong> VS Code</div></li></ol></li></ol>            </div>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="intro.html"><strong aria-hidden="true">1.</strong> Course Introduction</a></li><li class="chapter-item expanded "><a href="formatted_io/lecture_1-1.html"><strong aria-hidden="true">2.</strong> Lecture 1-1: Introduction to Programming &amp; C++</a></li><li class="chapter-item expanded "><a href="formatted_io/lecture_1-2.html"><strong aria-hidden="true">3.</strong> Lecture 1-2: Data Type &amp; Formatted Input/Output (1)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="formatted_io/lab_1_1.html"><strong aria-hidden="true">3.1.</strong> Lab 1-1: Hello Wolrd! (1)</a></li><li class="chapter-item expanded "><a href="formatted_io/lab_1_2.html"><strong aria-hidden="true">3.2.</strong> Lab 1-2: Hello Wolrd! (2)</a></li><li class="chapter-item expanded "><a href="formatted_io/lab_1_vscode.html"><strong aria-hidden="true">3.3.</strong> VS Code Tutorial</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">4.</strong> Lecture 2: Data Type &amp; Formatted Input/Output (2)</div></li></ol>            </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
 
@@ -215,8 +215,8 @@ After class, students can use the discussion forum in the NTHU eeclass or make a
 <li>課程上課地點：
 <ul>
 <li>綜三館 315 電腦教室 (座位47人，待系上防疫指引更新可出席人數)</li>
-<li>Youtube (Link: TBA)</li>
-<li>Teams (Link: TBA)</li>
+<li>Youtube (Link: <a href="https://www.youtube.com/playlist?list=PLEpArVdL-rlK1cLK7yxYcNHdL1rsvs5jB">上課錄影 - YouTube</a>)</li>
+<li>Teams (團隊代碼: 0l2nz9s)</li>
 </ul>
 </li>
 <li>本課程開放加簽，原則上限制人數為 50 人，且參加實體課程需配合防疫規定。
@@ -255,12 +255,448 @@ After class, students can use the discussion forum in the NTHU eeclass or make a
 </ul>
 <h2 id="ta-infos"><a class="header" href="#ta-infos">TA infos</a></h2>
 <p>許廷碩 <a href="mailto:tim890727@gmail.com">E-mail: tim890727@gmail.com</a></p>
-<p>TA Hours:</p>
+<p>TA Hours: TBA</p>
 <h2 id="上課實況錄影檔"><a class="header" href="#上課實況錄影檔">上課實況/錄影檔</a></h2>
-<p>Youtube (Link: TBA)</p>
+<p>Youtube (Link: <a href="https://www.youtube.com/playlist?list=PLEpArVdL-rlK1cLK7yxYcNHdL1rsvs5jB">上課錄影 - YouTube</a>)</p>
 <h2 id="bonus"><a class="header" href="#bonus">Bonus</a></h2>
 <p>課程內容如果有錯誤，可以在每頁的右上方 &quot;Suggest an edit&quot; 使用 Github 進行修改，修改完畢後利用 Pull Request 的方式提交。</p>
 <p>提交時註明學號以及姓名，並且每提交一次可以增加學期分數，配分依據修改幅度而定，每人總增加分數不超過 5 分。</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="lecture-1-1-introduction-to-programming--c"><a class="header" href="#lecture-1-1-introduction-to-programming--c">Lecture 1-1: Introduction to Programming &amp; C++</a></h1>
+<h2 id="從-source-code-到執行檔"><a class="header" href="#從-source-code-到執行檔">從 Source Code 到執行檔</a></h2>
+<p><img src="formatted_io/img/c_to_program.png" alt="c to program" />
+Credit: Computer Architecture by 黃婷婷老師</p>
+<h3 id="text-editor"><a class="header" href="#text-editor">Text Editor</a></h3>
+<p>程式碼其實就是一般的純文字檔，為了能夠讓程式設計師有更好的效率撰寫程式，因此寫程式的編輯器會增加其他的功能輔助，例如自動縮排、關鍵字變色、甚至檢查語法錯誤等。</p>
+<p>常見的程式編輯器有 Notepad++ 、 Atom 、 VS Code 等。</p>
+<h3 id="compiler"><a class="header" href="#compiler">Compiler</a></h3>
+<p>是程式語言的核心工具，用來將你寫的 C/C++ 程式碼變成讓電腦能夠執行的指令。
+此外還負責指令的最佳化，讓執行效率提升。</p>
+<h3 id="linker"><a class="header" href="#linker">Linker</a></h3>
+<p>是用來將編譯好的指令連結成電腦能夠執行的執行檔。因為除了我們自己寫的程式碼之外，無可避免一定會用到許多已經編譯好的指令—— Library (函式庫)。
+在現實的情況下，不可能每一東西都要靠自己創造，所以絕大多數的時候我們都會使用內建的或別人寫好的函式庫，來達到自己想要的功能。 
+Linker 就是用來把我們的程式碼和需要的函式庫裡的程式碼連結在一起，形成單一的可執行檔。
+在 Windows 裡，執行的的副檔名為 <code>.exe</code>，macOS/Linux 則是給予執行權限即可執行。</p>
+<h3 id="loader"><a class="header" href="#loader">Loader</a></h3>
+<p>是用來將執行檔載入給電腦，並實際讓電腦執行你的執行檔。
+可以想像是在桌面上點兩下 <code>.exe</code> 檔案， Loader 概念與這個類似。</p>
+<h2 id="程式執行"><a class="header" href="#程式執行">程式執行</a></h2>
+<p>所有的程式都是從指令列執行。
+現在常見的圖形介面程式都是從指令列程式擴充而來的。</p>
+<p>例如在桌面上點兩下 <code>a.exe</code> 檔案其實是告訴系統說 “請執行 <code>a.exe</code>”，系統會透過 Loader 將 <code>a.exe</code> 載入並且執行。
+這時僅有指令列，如果要顯示圖形化介面， <code>a.exe</code> 需要加入其他函式庫告訴系統 “<code>a.exe</code> 有圖形化介面，內容分別是...”。</p>
+<pre><code class="language-console">$ firefox
+.......
+.......
+^C
+$
+</code></pre>
+<h2 id="c-語言架構"><a class="header" href="#c-語言架構">C++ 語言架構</a></h2>
+<pre><code class="language-c++">// import std::cout &amp; std::endl
+#include &lt;iostream&gt;
+/* 
+start of define main function
+void: no input arguments
+int: return value in int type
+*/
+int main(void){
+    // print &quot;Hello world!&quot; on the terminal
+    std::cout &lt;&lt; &quot;Hello world!&quot; &lt;&lt; std::endl;
+    // return execute status back to the system
+    // `0` means the program executed successfully
+    return 0;
+// end of define main function
+}
+</code></pre>
+<pre><code class="language-console">$ ./a.out
+Hello world!
+$
+</code></pre>
+<h3 id="include-iostream"><a class="header" href="#include-iostream"><code>#include &lt;iostream&gt;</code></a></h3>
+<h3 id="int-mainvoid--return-0"><a class="header" href="#int-mainvoid--return-0"><code>int main(void){}</code> &amp; <code>return 0;</code></a></h3>
+<h3 id="stdcout"><a class="header" href="#stdcout"><code>std::cout</code> &amp; <code>&lt;&lt;</code></a></h3>
+<h3 id="stdendl"><a class="header" href="#stdendl"><code>std::endl</code></a></h3>
+<h3 id="return-0"><a class="header" href="#return-0"><code>return 0;</code></a></h3>
+<p>Reference:</p>
+<ul>
+<li><a href="https://github.com/htchen/i2p-nthu/tree/master/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88%E4%B8%80/Introduction%20to%20programming">htchen/i2p-nthu by 陳煥宗老師</a></li>
+<li><a href="https://ocw.nthu.edu.tw/ocw/index.php?page=course&amp;cid=76">Computer Architecture by 黃婷婷老師</a></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="lecture-1-2-data-type--formatted-inputoutput-1"><a class="header" href="#lecture-1-2-data-type--formatted-inputoutput-1">Lecture 1-2: Data Type &amp; Formatted Input/Output (1)</a></h1>
+<h2 id="變數--格式化輸出"><a class="header" href="#變數--格式化輸出">變數 &amp; 格式化輸出</a></h2>
+<pre><code class="language-c++">// import std::cout &amp; std::endl
+#include &lt;iostream&gt;
+// start of define main function
+// void: no input arguments
+// int: return value in int type
+int main(void){
+    // define variable `year`, `month`, and `day`
+    // and assign value with `2021`, `9`, and `23`
+    int year = 2021, month = 9, day = 23;
+    // print &quot;Hello world!&quot; and today's date on the terminal
+    std::cout &lt;&lt; &quot;Hello world!&quot; 
+            &lt;&lt; std::endl
+            &lt;&lt; &quot;Today is &quot;
+            &lt;&lt; year &lt;&lt; &quot;/&quot;
+            &lt;&lt; month &lt;&lt; &quot;/&quot;
+            &lt;&lt; day &lt;&lt; &quot;.&quot;
+            &lt;&lt; std::endl;
+    return 0;
+}
+</code></pre>
+<pre><code class="language-console">$ ./a.out
+Hello world!
+Today is 2021/9/23.
+$
+</code></pre>
+<h3 id="int-year--2021-month--9-day--23"><a class="header" href="#int-year--2021-month--9-day--23"><code>int year = 2021, month = 9, day = 23;</code></a></h3>
+<h4 id="變數命名規則"><a class="header" href="#變數命名規則">變數命名規則</a></h4>
+<h3 id="stdcout--year"><a class="header" href="#stdcout--year"><code>std::cout &lt;&lt; year;</code></a></h3>
+<h2 id="從鍵盤讀取-stdcin"><a class="header" href="#從鍵盤讀取-stdcin">從鍵盤讀取: <code>std::cin</code></a></h2>
+<pre><code class="language-c++">#include &lt;iostream&gt;
+
+int main(void){
+    int input_number = 0;
+    std::cin &gt;&gt; input_number;
+    std::cout &lt;&lt; &quot;Hello world! &quot; 
+                &lt;&lt; input_number 
+                &lt;&lt; std::endl;
+    return 0;
+}
+</code></pre>
+<h3 id="stdcin--input_number"><a class="header" href="#stdcin--input_number"><code>std::cin &gt;&gt; input_number;</code></a></h3>
+<h2 id="數字運算"><a class="header" href="#數字運算">數字運算</a></h2>
+<pre><code class="language-c++">#include &lt;iostream&gt;
+
+int main(void){
+    int a = 0, b = 0, c = 0;
+    std::cout &lt;&lt; &quot;input a:&quot;;
+    std::cin &gt;&gt; a;
+    std::cout &lt;&lt; &quot;input b:&quot;;
+    std::cin &gt;&gt; b;
+    c = a + b;
+    std::cout &lt;&lt; &quot;a: &quot; &lt;&lt; a &lt;&lt; std::endl
+                &lt;&lt; &quot;b: &quot; &lt;&lt; b &lt;&lt; std::endl
+                &lt;&lt; &quot;a + b = &quot; &lt;&lt; c &lt;&lt; std::endl;
+    return 0;
+}
+</code></pre>
+<h3 id="c--a--b"><a class="header" href="#c--a--b"><code>c = a + b;</code></a></h3>
+<p>Reference:</p>
+<ul>
+<li><a href="https://github.com/htchen/i2p-nthu/tree/master/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88%E4%B8%80/Introduction%20to%20programming">htchen/i2p-nthu by 陳煥宗老師</a></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="lab-1-1-hello-world-1"><a class="header" href="#lab-1-1-hello-world-1">Lab 1-1: Hello World (1)</a></h1>
+<p>Helloworld 的範例程式碼</p>
+<pre><code class="language-c++">#include &lt;iostream&gt;
+
+int main(void){
+    std::cout &lt;&lt; &quot;Hello world!&quot; &lt;&lt; std::endl;
+    return 0;
+}
+</code></pre>
+<h2 id="互動式顯示-hello-world-your-student-id-50"><a class="header" href="#互動式顯示-hello-world-your-student-id-50">互動式顯示 <code>Hello world! &lt;your student id&gt;</code> (50%)</a></h2>
+<ul>
+<li>輸入：學生學號</li>
+<li>輸出：Hello world 文字及學生學號</li>
+<li>檔名：lab1_p1_&lt;學號&gt;.cpp (e.g. lab1_p1_106062802.cpp)</li>
+</ul>
+<p>程式需提示使用者輸入學號，程式需輸出 <code>Hello world!</code> 以及使用者輸入的學號。</p>
+<pre><code class="language-console">$ ./a.out
+Your student ID: &lt;your student id&gt;
+Hello world! student &lt;your student id&gt;
+
+$ ./a.out
+Your student ID: 106062802
+Hello world! student 106062802
+</code></pre>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="lab-1-2-hello-world-2"><a class="header" href="#lab-1-2-hello-world-2">Lab 1-2: Hello World (2)</a></h1>
+<h2 id="每週工時計算-50"><a class="header" href="#每週工時計算-50">每週工時計算 (50%)</a></h2>
+<ul>
+<li>輸入：一位員工的每週工作日數、該員工該週每天的工作時數</li>
+<li>輸出：該員工每週的工時</li>
+<li>檔名：lab1_p2_&lt;學號&gt;.cpp (e.g. lab1_p2_106062802.cpp)</li>
+</ul>
+<p>程式需提示使用者輸入一位員工的每週工作日數、該員工該週每天的工作時數 (假設每天皆相同)，程式需輸出該員工每週的工時。</p>
+<pre><code class="language-console">$ ./a.out
+Employee workdays per week: &lt;workdays/week&gt;
+Employee working hours per workday: &lt;working hours/workday&gt;
+Employee works &lt;working hours/week&gt; hour(s) per week.
+
+$ ./a.out
+Employee workdays per week: 6
+Employee working hours per workday: 12
+Employee works 72 hour(s) per week.
+</code></pre>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="visual-studio-code-tutorial"><a class="header" href="#visual-studio-code-tutorial">Visual Studio Code Tutorial</a></h1>
+<h2 id="設定-vscode-環境-linux"><a class="header" href="#設定-vscode-環境-linux">設定 VSCode 環境 (Linux)</a></h2>
+<h3 id="安裝-gcc"><a class="header" href="#安裝-gcc">安裝 GCC</a></h3>
+<pre><code class="language-bash">sudo apt update
+sudo apt install -y build-essential g++ gdb
+g++ -v
+</code></pre>
+<p>Wrong:</p>
+<p><img src="formatted_io/img/g++_wrong.png" alt="g++ wrong" /></p>
+<p>Correct:</p>
+<p><img src="formatted_io/img/g++_correct.png" alt="g++ correct" /></p>
+<h3 id="安裝-vscode--c-plugin"><a class="header" href="#安裝-vscode--c-plugin">安裝 VSCode &amp; C++ plugin</a></h3>
+<p>Install VSCode: <a href="https://code.visualstudio.com/docs/setup/linux">https://code.visualstudio.com/docs/setup/linux</a></p>
+<p>Install the C++ extension for VSCode: <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools">https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools</a></p>
+<h3 id="新增專案-hello-world"><a class="header" href="#新增專案-hello-world">新增專案 (Hello world!)</a></h3>
+<pre><code class="language-console">$ mkdir projects
+$ cd projects
+$ code .
+</code></pre>
+<p>In VSCode: <code>Exploer -&gt; New File</code></p>
+<p>輸入 <code>test.cpp</code></p>
+<p><img src="formatted_io/img/new_file.png" alt="new file icon" /></p>
+<p>在文字輸入區輸入以下程式碼</p>
+<pre><code class="language-c++">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;string&gt;
+
+using namespace std;
+
+int main()
+{
+    vector&lt;string&gt; msg {&quot;Hello&quot;, &quot;C++&quot;, &quot;World&quot;, &quot;from&quot;, &quot;VS Code&quot;, &quot;and the C++ extension!&quot;};
+
+    for (const string&amp; word : msg)
+    {
+        cout &lt;&lt; word &lt;&lt; &quot; &quot;;
+    }
+    cout &lt;&lt; endl;
+}
+</code></pre>
+<p><img src="formatted_io/img/input_cpp.png" alt="input cpp code" /></p>
+<h3 id="編譯--執行-hello-world"><a class="header" href="#編譯--執行-hello-world">編譯 &amp; 執行 Hello world!</a></h3>
+<p>In VSCode: <code>Terminal -&gt; New Terminal</code></p>
+<p><img src="formatted_io/img/create_terminal.png" alt="create terminal" /></p>
+<p>In VSCode Terminal:</p>
+<pre><code class="language-console">$ g++ test.cpp
+$ ./a.out
+Hello C++ World from VS Code and the C++ extension! 
+$ 
+</code></pre>
+<h3 id="debugger"><a class="header" href="#debugger">Debugger</a></h3>
+<p>可以設置中斷點，方便程式除錯。</p>
+<h4 id="launchjson"><a class="header" href="#launchjson"><code>launch.json</code></a></h4>
+<p>In VSCode: <code>Exploer -&gt; New Folder</code></p>
+<p>輸入 <code>.vscode</code></p>
+<p><img src="formatted_io/img/new_folder.png" alt="new folder icon" /></p>
+<p>In VSCode: <code>Exploer -&gt; New File</code></p>
+<p>輸入 <code>launch.json</code></p>
+<p>在文字輸入區輸入以下設定檔</p>
+<pre><code class="language-json">{
+    &quot;version&quot;: &quot;0.2.0&quot;,
+    &quot;configurations&quot;: [
+        {
+            &quot;name&quot;: &quot;(gdb) Launch&quot;,
+            &quot;type&quot;: &quot;cppdbg&quot;,
+            &quot;request&quot;: &quot;launch&quot;,
+            &quot;program&quot;: &quot;${workspaceFolder}/a.out&quot;,
+            &quot;args&quot;: [],
+            &quot;stopAtEntry&quot;: false,
+            &quot;cwd&quot;: &quot;${workspaceFolder}&quot;,
+            &quot;environment&quot;: [],
+            &quot;externalConsole&quot;: false,
+            &quot;MIMode&quot;: &quot;gdb&quot;,
+            &quot;setupCommands&quot;: [
+                {
+                    &quot;description&quot;: &quot;Enable pretty-printing for gdb&quot;,
+                    &quot;text&quot;: &quot;-enable-pretty-printing&quot;,
+                    &quot;ignoreFailures&quot;: true
+                }
+            ]
+        }
+    ]
+}
+</code></pre>
+<h4 id="編譯--執行-debugger"><a class="header" href="#編譯--執行-debugger">編譯 &amp; 執行 Debugger</a></h4>
+<p>In VSCode Terminal:</p>
+<pre><code class="language-console">$ g++ -g test.cpp
+$ 
+</code></pre>
+<p>插入中斷點</p>
+<p>在要中斷的程式碼行號左邊點一下</p>
+<p><img src="formatted_io/img/insert_breakpoint.png" alt="insert breakpoint" /></p>
+<p>In VSCode: <code>Run -&gt; Start Debugging F5</code></p>
+<p><img src="formatted_io/img/start_gdb.png" alt="start debugging" /></p>
+<p><img src="formatted_io/img/run_gdb.png" alt="run gdb" /></p>
+<h2 id="使用-vscode-server"><a class="header" href="#使用-vscode-server">使用 VSCode server</a></h2>
+<p><img src="formatted_io/img/login_codeserver.png" alt="login code-server" /></p>
+<h3 id="安裝-gcc--c-plugin"><a class="header" href="#安裝-gcc--c-plugin">安裝 GCC &amp; C++ plugin</a></h3>
+<p>In VSCode: <code>Terminal -&gt; New Terminal</code></p>
+<p><img src="formatted_io/img/codeserver_create_terminal.png" alt="create terminal" /></p>
+<pre><code class="language-console">sudo apt update
+sudo apt install -y build-essential g++ gdb
+g++ -v
+curl -L https://github.com/microsoft/vscode-cpptools/releases/download/1.5.1/cpptools-linux.vsix --output cpptools-linux.vsix
+code-server --install-extension cpptools-linux.vsix
+</code></pre>
+<p>NOTE: 須重新整理網頁才能生效</p>
+<h3 id="新增專案-hello-world-1"><a class="header" href="#新增專案-hello-world-1">新增專案 (Hello world!)</a></h3>
+<p>In VSCode: <code>Exploer -&gt; New Folder</code></p>
+<p>輸入 <code>projects</code></p>
+<p><img src="formatted_io/img/codeserver_new_folder.png" alt="new folder projects" /></p>
+<p>In VSCode: <code>File -&gt; Open Folder</code></p>
+<p><img src="formatted_io/img/codeserver_open_folder_1.png" alt="open folder projects 1" /></p>
+<p><img src="formatted_io/img/codeserver_open_folder_2.png" alt="open folder projects 2" /></p>
+<p>In VSCode: <code>Exploer -&gt; New File</code></p>
+<p>輸入 <code>test.cpp</code></p>
+<p><img src="formatted_io/img/new_file.png" alt="new file icon" /></p>
+<p>在文字輸入區輸入以下程式碼</p>
+<pre><code class="language-c++">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;string&gt;
+
+using namespace std;
+
+int main()
+{
+    vector&lt;string&gt; msg {&quot;Hello&quot;, &quot;C++&quot;, &quot;World&quot;, &quot;from&quot;, &quot;VS Code&quot;, &quot;and the C++ extension!&quot;};
+
+    for (const string&amp; word : msg)
+    {
+        cout &lt;&lt; word &lt;&lt; &quot; &quot;;
+    }
+    cout &lt;&lt; endl;
+}
+</code></pre>
+<p><img src="formatted_io/img/input_cpp.png" alt="input cpp code" /></p>
+<h3 id="編譯--執行-hello-world-1"><a class="header" href="#編譯--執行-hello-world-1">編譯 &amp; 執行 Hello world!</a></h3>
+<p>In VSCode Terminal:</p>
+<pre><code class="language-console">$ g++ test.cpp
+$ ./a.out
+Hello C++ World from VS Code and the C++ extension! 
+$ 
+</code></pre>
+<h3 id="debugger-1"><a class="header" href="#debugger-1">Debugger</a></h3>
+<p>可以設置中斷點，方便程式除錯。</p>
+<h4 id="launchjson-1"><a class="header" href="#launchjson-1"><code>launch.json</code></a></h4>
+<p>In VSCode: <code>Exploer -&gt; New Folder</code></p>
+<p>輸入 <code>.vscode</code></p>
+<p><img src="formatted_io/img/new_folder.png" alt="new folder icon" /></p>
+<p>In VSCode: <code>Exploer -&gt; New File</code></p>
+<p>輸入 <code>launch.json</code></p>
+<p>在文字輸入區輸入以下設定檔</p>
+<pre><code class="language-json">{
+    &quot;version&quot;: &quot;0.2.0&quot;,
+    &quot;configurations&quot;: [
+        {
+            &quot;name&quot;: &quot;(gdb) Launch&quot;,
+            &quot;type&quot;: &quot;cppdbg&quot;,
+            &quot;request&quot;: &quot;launch&quot;,
+            &quot;program&quot;: &quot;${workspaceFolder}/a.out&quot;,
+            &quot;args&quot;: [],
+            &quot;stopAtEntry&quot;: false,
+            &quot;cwd&quot;: &quot;${workspaceFolder}&quot;,
+            &quot;environment&quot;: [],
+            &quot;externalConsole&quot;: false,
+            &quot;MIMode&quot;: &quot;gdb&quot;,
+            &quot;setupCommands&quot;: [
+                {
+                    &quot;description&quot;: &quot;Enable pretty-printing for gdb&quot;,
+                    &quot;text&quot;: &quot;-enable-pretty-printing&quot;,
+                    &quot;ignoreFailures&quot;: true
+                }
+            ]
+        }
+    ]
+}
+</code></pre>
+<h4 id="編譯--執行-debugger-1"><a class="header" href="#編譯--執行-debugger-1">編譯 &amp; 執行 Debugger</a></h4>
+<p>In VSCode Terminal:</p>
+<pre><code class="language-console">$ g++ -g test.cpp
+$ 
+</code></pre>
+<p>插入中斷點</p>
+<p>在要中斷的程式碼行號左邊點一下</p>
+<p><img src="formatted_io/img/insert_breakpoint.png" alt="insert breakpoint" /></p>
+<p>In VSCode: <code>Run -&gt; Start Debugging F5</code></p>
+<p><img src="formatted_io/img/start_gdb.png" alt="start debugging" /></p>
+<p><img src="formatted_io/img/run_gdb.png" alt="run gdb" /></p>
+<h2 id="設定-vscode-環境-windows"><a class="header" href="#設定-vscode-環境-windows">設定 VSCode 環境 (Windows)</a></h2>
+<p>Credit: <a href="https://github.com/CNOCycle/cpp_tutorial">CNOCycle/cpp_tutorial by E. Chen</a></p>
+<h3 id="安裝步驟"><a class="header" href="#安裝步驟">安裝步驟</a></h3>
+<ol>
+<li>下載<a href="https://github.com/CNOCycle/cpp_tutorial/releases/download/win-mingw-vscode/vscode-all-in-one.zip">vscode-all-in-one.zip</a></li>
+<li>解壓縮縮後，將檔案放到路徑<code>%USERPROFILE%</code></li>
+<li>將<code>%USERPROFILE%\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin</code>加入到環境變數<code>Path</code></li>
+<li>完成</li>
+</ol>
+<h3 id="圖解說明"><a class="header" href="#圖解說明">圖解說明</a></h3>
+<ul>
+<li><code>%USERPROFILE%</code> 是windows的環境變數，指的是該電腦使用者的目錄。
+概念同linux底下的<code>${HOME}</code>。
+以本台測試電腦為例，該電腦使用者為<code>WDAGUtilityAccount</code>，則<code>%USERPROFILE%</code>=<code>C:\Users\WDAGUtilityAccount</code>。
+正常請況下在檔案總管上的路徑列輸入<code>%USERPROFILE%</code>後會自動跳轉。如下圖示範：</li>
+</ul>
+<p><img src="formatted_io/./img/fig_01-win-var.png" alt="windows_var" /></p>
+<ul>
+<li>將檔案放到路徑<code>%USERPROFILE%</code>，如下圖示範：</li>
+</ul>
+<p><img src="formatted_io/./img/fig_02-extract_files.png" alt="extract_files" /></p>
+<ul>
+<li>將<code>%USERPROFILE%\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin</code>加入到環境變數<code>Path</code>，如下圖示範：</li>
+</ul>
+<p><img src="formatted_io/./img/fig_03-var_editor.png" alt="var_editor" /></p>
+<p><img src="formatted_io/./img/fig_04-add_var.png" alt="add_var" /></p>
+<h3 id="測試編譯以及除錯"><a class="header" href="#測試編譯以及除錯">測試編譯以及除錯</a></h3>
+<h4 id="測試編譯"><a class="header" href="#測試編譯">測試編譯</a></h4>
+<ol>
+<li>用<code>vscode</code>編輯器選擇開啟解壓縮檔案裡面的<code>test</code>資料夾，如下圖示範：</li>
+</ol>
+<p><img src="formatted_io/./img/fig_05-open_vscode.png" alt="open_vscode" /></p>
+<ol start="2">
+<li>信任開啟檔案，選擇<code>Yes, I trust</code>，如下圖示範：</li>
+</ol>
+<p><img src="formatted_io/./img/fig_06-trust_vscode.png" alt="trust_vscode" /></p>
+<ol start="3">
+<li>點擊左方test.cpp檔案後，在第5行左側按下去，會出現紅點，如下圖示範：</li>
+</ol>
+<p><img src="formatted_io/./img/fig_07-add_break_point.png" alt="add_break_point" /></p>
+<ol start="4">
+<li>按下<code>ctrl+shift+B</code>按鍵，或上方<code>terminal -&gt; Run Build Task</code>，如下圖示範：</li>
+</ol>
+<p><img src="formatted_io/./img/fig_08-run_build_task.png" alt="run_build_task" /></p>
+<ol start="5">
+<li>此時上方會出現以下畫面，選擇中間選項使用 <strong>g++</strong> 編譯檔案，如下圖示範：</li>
+</ol>
+<p><img src="formatted_io/./img/fig_09-build_hint.png" alt="build_hint" /></p>
+<ol start="6">
+<li>設置正確的話，此時下方會出現編譯成功完成的提示，如下圖示範：</li>
+</ol>
+<p><img src="formatted_io/./img/fig_10-build_successfully.png" alt="build_successfully" /></p>
+<h4 id="測試除錯"><a class="header" href="#測試除錯">測試除錯</a></h4>
+<ol>
+<li>
+<p>完成前項<code>測試編譯</code>的所有流程</p>
+</li>
+<li>
+<p>按下左方三角形按鈕後選擇<code>Run and Debug</code>，如下圖示範：</p>
+</li>
+</ol>
+<p><img src="formatted_io/./img/fig_11-open_debugger.png" alt="open_debugger" /></p>
+<ol start="3">
+<li>此時上方會依序出現相關提示，選擇預設的即可，如下圖示範：</li>
+</ol>
+<p><img src="formatted_io/./img/fig_12-debuger_hint-1.png" alt="debuger_hint-1" />
+<img src="formatted_io/./img/fig_13-debuger_hint-2.png" alt="debuger_hint-2" /></p>
+<ol start="4">
+<li>若設定正確的話，會看到程式停留在選取的第5行，如下圖示範：</li>
+</ol>
+<p><img src="formatted_io/./img/fig_14-debuger_successful.png" alt="debuger_successful" /></p>
+<p>Reference: </p>
+<ul>
+<li><a href="https://github.com/CNOCycle/cpp_tutorial">CNOCycle/cpp_tutorial by E. Chen</a></li>
+<li><a href="https://code.visualstudio.com/docs/cpp/config-linux">Get Started with C++ on Linux in Visual Studio Code</a></li>
+<li><a href="https://code.visualstudio.com/docs/cpp/config-mingw">Get Started with C++ and Mingw-w64 in Visual Studio Code</a></li>
+</ul>
+<p>延伸資訊:</p>
+<ul>
+<li><a href="https://code.visualstudio.com/docs/cpp/config-clang-mac">Configure VS Code for Clang/LLVM on macOS</a></li>
+<li><a href="https://code.visualstudio.com/docs/cpp/config-wsl">Get Started with C++ and Windows Subsystem for Linux in Visual Studio Code</a></li>
+</ul>
 
                     </main>
 
