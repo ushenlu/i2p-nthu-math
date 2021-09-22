@@ -84,10 +84,12 @@ After class, students can use the discussion forum in the NTHU eeclass or make a
 
 ## 課程資訊
 
+* 課程上課時間：每週四 15:30 - 18:10
+    * 前 1 - 1.5 小時講解今日主題
+    * 之後時間開放同學於現場或線上即時提問
 * 課程上課地點：
     * 綜三館 315 電腦教室 (座位47人，待系上防疫指引更新可出席人數)
     * Youtube (Link: [上課錄影 - YouTube](https://www.youtube.com/playlist?list=PLEpArVdL-rlK1cLK7yxYcNHdL1rsvs5jB))
-      * 上課時會提供不公開直播連結，課程完畢後會開放並更新至直播清單中
     * Teams (團隊代碼: 0l2nz9s)
 * 本課程開放加簽，原則上限制人數為 50 人，且參加實體課程需配合防疫規定。
     * 請使用電子加簽系統加簽。
