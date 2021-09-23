@@ -51,7 +51,7 @@ In VSCode: `Exploer -> New File`
 
 using namespace std;
 
-int main()
+int main(void)
 {
     vector<string> msg {"Hello", "C++", "World", "from", "VS Code", "and the C++ extension!"};
 
@@ -60,6 +60,7 @@ int main()
         cout << word << " ";
     }
     cout << endl;
+    return 0;
 }
 ```
 
@@ -204,7 +205,7 @@ In VSCode: `Exploer -> New File`
 
 using namespace std;
 
-int main()
+int main(void)
 {
     vector<string> msg {"Hello", "C++", "World", "from", "VS Code", "and the C++ extension!"};
 
@@ -213,6 +214,7 @@ int main()
         cout << word << " ";
     }
     cout << endl;
+    return 0;
 }
 ```
 
@@ -463,3 +465,5 @@ Reference:
 
 * [Get Started with C++ on Linux in Visual Studio Code](https://code.visualstudio.com/docs/cpp/config-linux)
 * [Configure VS Code for Clang/LLVM on macOS](https://code.visualstudio.com/docs/cpp/config-clang-mac)
+* [Get Started with C++ and Windows Subsystem for Linux in Visual Studio Code](https://code.visualstudio.com/docs/cpp/config-wsl)
+
