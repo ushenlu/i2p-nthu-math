@@ -113,6 +113,12 @@ After class, students can use the discussion forum in the NTHU eeclass or make a
     * 期中 / 期末評量會視疫情變化調整為其他方案。
 * 參加期中 / 期末評量需繳交評量前所有作業，未完整繳交該次評量前作業的同學不得參加。
 
+## 老師資訊
+
+洪奕文 [E-mail: s106062802@m106.nthu.edu.tw](mailto:s106062802@m106.nthu.edu.tw)
+
+Office Hours: Every Thur. 14:00 - 15:30
+
 ## TA infos
 
 許廷碩 [E-mail: tim890727@gmail.com](mailto:tim890727@gmail.com)
