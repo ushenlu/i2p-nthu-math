@@ -88,7 +88,10 @@ After class, students can use the discussion forum in the NTHU eeclass or make a
     * 前 1 - 1.5 小時講解今日主題
     * 之後時間開放同學於現場或線上即時提問
 * 課程上課地點：
-    * 綜三館 315 電腦教室 (座位47人，待系上防疫指引更新可出席人數)
+    * 綜三館 315 電腦教室 (座位47人，可出席人數 27 人)
+        * 實體上課出席登記: [程式設計一 實體上課登記 - Google 表單](https://docs.google.com/forms/d/15shTuTJ9NeNx7ZlAmeEAB1f6OKSCzZlQxOWp8_9yWFE/edit#responses)
+        * 出席人數查詢: [程式設計一 實體上課登記 - Google 雲端硬碟](https://drive.google.com/drive/folders/1lCZQwnqPLsQAyARJeXjzyKJkThQJ9cHR)
+        * 開放時間: 每週四 18:00 - 次週四 12:00
     * Youtube (Link: [上課錄影 - YouTube](https://www.youtube.com/playlist?list=PLEpArVdL-rlK1cLK7yxYcNHdL1rsvs5jB))
     * Teams (團隊代碼: 0l2nz9s)
 * 本課程開放加簽，原則上限制人數為 50 人，且參加實體課程需配合防疫規定。
