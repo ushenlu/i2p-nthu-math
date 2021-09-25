@@ -28,13 +28,13 @@ Correct:
 
 ### 安裝 VSCode & Remote - WSL plugin
 
-Install VSCode: [https://code.visualstudio.com/docs/setup/linux](https://code.visualstudio.com/docs/setup/linux)
+Install VSCode: [https://code.visualstudio.com/docs/setup/windows](https://code.visualstudio.com/docs/setup/windows)
 
 Install the Remote - WSL extension for VSCode: [https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)
 
 ### 新增專案 (Hello world!)
 
-在 **WSL Ubuntu** 輸入以下指令：
+重新打開 **WSL Ubuntu** 並輸入以下指令：
 
 ```console
 $ mkdir projects
@@ -43,8 +43,6 @@ $ code .
 ```
 
 Correct:
-
-![wsl correct 1](img/file-explorer-wsl.png)
 
 ![wsl correct 2](img/wsl-status-bar.png)
 
