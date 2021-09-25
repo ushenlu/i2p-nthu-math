@@ -85,7 +85,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="intro.html"><strong aria-hidden="true">1.</strong> Course Introduction</a></li><li class="chapter-item expanded "><a href="formatted_io/lecture_1-1.html"><strong aria-hidden="true">2.</strong> Lecture 1-1: Introduction to Programming &amp; C++</a></li><li class="chapter-item expanded "><a href="formatted_io/lecture_1-2.html"><strong aria-hidden="true">3.</strong> Lecture 1-2: Data Type &amp; Formatted Input/Output (1)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="formatted_io/lab_1_1.html"><strong aria-hidden="true">3.1.</strong> Lab 1-1: Hello Wolrd! (1)</a></li><li class="chapter-item expanded "><a href="formatted_io/lab_1_2.html"><strong aria-hidden="true">3.2.</strong> Lab 1-2: Hello Wolrd! (2)</a></li><li class="chapter-item expanded "><a href="formatted_io/lab_1_vscode.html"><strong aria-hidden="true">3.3.</strong> VS Code Tutorial</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">4.</strong> Lecture 2: Data Type &amp; Formatted Input/Output (2)</div></li></ol>            </div>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="intro.html"><strong aria-hidden="true">1.</strong> Course Introduction</a></li><li class="chapter-item expanded "><a href="formatted_io/lecture_1-1.html"><strong aria-hidden="true">2.</strong> Lecture 1-1: Introduction to Programming &amp; C++</a></li><li class="chapter-item expanded "><a href="formatted_io/lecture_1-2.html"><strong aria-hidden="true">3.</strong> Lecture 1-2: Data Type &amp; Formatted Input/Output (1)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="formatted_io/lab_1_1.html"><strong aria-hidden="true">3.1.</strong> Lab 1-1: Hello Wolrd! (1)</a></li><li class="chapter-item expanded "><a href="formatted_io/lab_1_2.html"><strong aria-hidden="true">3.2.</strong> Lab 1-2: Hello Wolrd! (2)</a></li><li class="chapter-item expanded "><a href="formatted_io/lab_1_vscode.html"><strong aria-hidden="true">3.3.</strong> VS Code Tutorial (Linux/macOS/code server)</a></li><li class="chapter-item expanded "><a href="formatted_io/lab_1_vscode_win.html"><strong aria-hidden="true">3.4.</strong> VS Code Tutorial (WSL/windows + mingw)</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">4.</strong> Lecture 2: Data Type &amp; Formatted Input/Output (2)</div></li></ol>            </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
 
@@ -448,6 +448,7 @@ Employee works 72 hour(s) per week.
 <div style="break-before: page; page-break-before: always;"></div><h1 id="visual-studio-code-tutorial"><a class="header" href="#visual-studio-code-tutorial">Visual Studio Code Tutorial</a></h1>
 <h2 id="設定-vscode-環境-linux"><a class="header" href="#設定-vscode-環境-linux">設定 VSCode 環境 (Linux)</a></h2>
 <h3 id="安裝-gcc"><a class="header" href="#安裝-gcc">安裝 GCC</a></h3>
+<p>打開 <strong>終端機</strong> 輸入以下指令：</p>
 <pre><code class="language-bash">sudo apt update
 sudo apt install -y build-essential g++ gdb
 g++ -v
@@ -460,6 +461,7 @@ g++ -v
 <p>Install VSCode: <a href="https://code.visualstudio.com/docs/setup/linux">https://code.visualstudio.com/docs/setup/linux</a></p>
 <p>Install the C++ extension for VSCode: <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools">https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools</a></p>
 <h3 id="新增專案-hello-world"><a class="header" href="#新增專案-hello-world">新增專案 (Hello world!)</a></h3>
+<p>在 <strong>終端機</strong> 輸入以下指令：</p>
 <pre><code class="language-console">$ mkdir projects
 $ cd projects
 $ code .
@@ -540,6 +542,122 @@ $
 <p>In VSCode: <code>Run -&gt; Start Debugging F5</code></p>
 <p><img src="formatted_io/img/start_gdb.png" alt="start debugging" /></p>
 <p><img src="formatted_io/img/run_gdb.png" alt="run gdb" /></p>
+<h2 id="設定-vscode-環境-macos"><a class="header" href="#設定-vscode-環境-macos">設定 VSCode 環境 (macOS)</a></h2>
+<h3 id="安裝-g"><a class="header" href="#安裝-g">安裝 g++</a></h3>
+<p>打開 <strong>終端機</strong> 輸入以下指令：</p>
+<pre><code class="language-bash">xcode-select --install
+g++ -v
+</code></pre>
+<p>Wrong:</p>
+<p><img src="formatted_io/img/g++_wrong.png" alt="g++ wrong" /></p>
+<p>Correct:</p>
+<p><img src="formatted_io/img/clang_correct.png" alt="g++ correct" /></p>
+<h3 id="安裝-vscode--c-plugin-1"><a class="header" href="#安裝-vscode--c-plugin-1">安裝 VSCode &amp; C++ plugin</a></h3>
+<p>Install VSCode: <a href="https://code.visualstudio.com/docs/setup/mac">https://code.visualstudio.com/docs/setup/mac</a></p>
+<p>Install the C++ extension for VSCode: <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools">https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools</a></p>
+<p>Note: 要加入 <code>code</code> 到環境變數 <code>PATH</code> 內。</p>
+<ol>
+<li>打開 <strong>Command Palette</strong> (<kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>P</kbd>) 後輸入 <code>shell command</code>，就可以找到 <strong>Shell Command: Install 'code' command in PATH</strong></li>
+</ol>
+<p><img src="formatted_io/img/mac_install_code_path.png" alt="mac_install_code_path" /></p>
+<ol start="2">
+<li>重新啟動 <strong>終端機</strong></li>
+</ol>
+<h3 id="新增專案-hello-world-1"><a class="header" href="#新增專案-hello-world-1">新增專案 (Hello world!)</a></h3>
+<p>在 <strong>終端機</strong> 輸入以下指令：</p>
+<pre><code class="language-console">$ mkdir projects
+$ cd projects
+$ code .
+</code></pre>
+<p>In VSCode: <code>Exploer -&gt; New File</code></p>
+<p>輸入 <code>test.cpp</code></p>
+<p><img src="formatted_io/img/new_file.png" alt="new file icon" /></p>
+<p>在文字輸入區輸入以下程式碼</p>
+<pre><code class="language-c++">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;string&gt;
+
+using namespace std;
+
+int main()
+{
+    vector&lt;string&gt; msg {&quot;Hello&quot;, &quot;C++&quot;, &quot;World&quot;, &quot;from&quot;, &quot;VS Code&quot;, &quot;and the C++ extension!&quot;};
+
+    for (const string&amp; word : msg)
+    {
+        cout &lt;&lt; word &lt;&lt; &quot; &quot;;
+    }
+    cout &lt;&lt; endl;
+}
+</code></pre>
+<p><img src="formatted_io/img/input_cpp.png" alt="input cpp code" /></p>
+<h4 id="settingsjson"><a class="header" href="#settingsjson"><code>settings.json</code></a></h4>
+<p>In VSCode: <code>Exploer -&gt; New Folder</code></p>
+<p>輸入 <code>.vscode</code></p>
+<p><img src="formatted_io/img/new_folder.png" alt="new folder icon" /></p>
+<p>In VSCode: <code>Exploer -&gt; New File</code></p>
+<p>輸入 <code>settings.json</code></p>
+<p><img src="formatted_io/img/new_file_settings.png" alt="new file icon" /></p>
+<p>在文字輸入區輸入以下設定檔</p>
+<pre><code class="language-json">{
+    &quot;C_Cpp.default.cppStandard&quot;: &quot;c++17&quot;
+}
+</code></pre>
+<h3 id="編譯--執行-hello-world-1"><a class="header" href="#編譯--執行-hello-world-1">編譯 &amp; 執行 Hello world!</a></h3>
+<p>In VSCode: <code>Terminal -&gt; New Terminal</code></p>
+<p><img src="formatted_io/img/create_terminal.png" alt="create terminal" /></p>
+<p>In VSCode Terminal:</p>
+<pre><code class="language-console">$ g++ -std=c++17 -stdlib=libc++ test.cpp
+$ ./a.out
+Hello C++ World from VS Code and the C++ extension! 
+$ 
+</code></pre>
+<h3 id="debugger-1"><a class="header" href="#debugger-1">Debugger</a></h3>
+<p>可以設置中斷點，方便程式除錯。</p>
+<h4 id="安裝-codelldb-plugin"><a class="header" href="#安裝-codelldb-plugin">安裝 CodeLLDB plugin</a></h4>
+<p>Install the CodeLLDB extension for VSCode: <a href="https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb">https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb</a></p>
+<h4 id="launchjson-1"><a class="header" href="#launchjson-1"><code>launch.json</code></a></h4>
+<p>In VSCode:</p>
+<p>選擇 <code>.vscode</code></p>
+<p>In VSCode: <code>Exploer -&gt; New File</code></p>
+<p>輸入 <code>launch.json</code></p>
+<p>在文字輸入區輸入以下設定檔</p>
+<pre><code class="language-json">{
+    &quot;version&quot;: &quot;0.2.0&quot;,
+    &quot;configurations&quot;: [
+        {
+            &quot;name&quot;: &quot;(gdb) Launch&quot;,
+            &quot;type&quot;: &quot;lldb&quot;,
+            &quot;request&quot;: &quot;launch&quot;,
+            &quot;program&quot;: &quot;${workspaceFolder}/a.out&quot;,
+            &quot;args&quot;: [&quot;-arg1&quot;, &quot;-arg2&quot;],
+            &quot;stopAtEntry&quot;: false,
+            &quot;cwd&quot;: &quot;${workspaceFolder}&quot;,
+            &quot;environment&quot;: [],
+            &quot;externalConsole&quot;: false,
+            &quot;MIMode&quot;: &quot;lldb&quot;,
+            &quot;setupCommands&quot;: [
+                {
+                    &quot;description&quot;: &quot;Enable pretty-printing for gdb&quot;,
+                    &quot;text&quot;: &quot;-enable-pretty-printing&quot;,
+                    &quot;ignoreFailures&quot;: true
+                }
+            ]
+        }
+    ]
+}
+</code></pre>
+<h4 id="編譯--執行-debugger-1"><a class="header" href="#編譯--執行-debugger-1">編譯 &amp; 執行 Debugger</a></h4>
+<p>In VSCode Terminal:</p>
+<pre><code class="language-console">$ g++ -std=c++17 -stdlib=libc++ -g test.cpp
+$ 
+</code></pre>
+<p>插入中斷點</p>
+<p>在要中斷的程式碼行號左邊點一下</p>
+<p><img src="formatted_io/img/insert_breakpoint.png" alt="insert breakpoint" /></p>
+<p>In VSCode: <code>Run -&gt; Start Debugging F5</code></p>
+<p><img src="formatted_io/img/start_gdb.png" alt="start debugging" /></p>
+<p><img src="formatted_io/img/run_gdb.png" alt="run gdb" /></p>
 <h2 id="使用-vscode-server"><a class="header" href="#使用-vscode-server">使用 VSCode server</a></h2>
 <p><img src="formatted_io/img/login_codeserver.png" alt="login code-server" /></p>
 <h3 id="安裝-gcc--c-plugin"><a class="header" href="#安裝-gcc--c-plugin">安裝 GCC &amp; C++ plugin</a></h3>
@@ -552,7 +670,7 @@ curl -L https://github.com/microsoft/vscode-cpptools/releases/download/1.5.1/cpp
 code-server --install-extension cpptools-linux.vsix
 </code></pre>
 <p>NOTE: 須重新整理網頁才能生效</p>
-<h3 id="新增專案-hello-world-1"><a class="header" href="#新增專案-hello-world-1">新增專案 (Hello world!)</a></h3>
+<h3 id="新增專案-hello-world-2"><a class="header" href="#新增專案-hello-world-2">新增專案 (Hello world!)</a></h3>
 <p>In VSCode: <code>Exploer -&gt; New Folder</code></p>
 <p>輸入 <code>projects</code></p>
 <p><img src="formatted_io/img/codeserver_new_folder.png" alt="new folder projects" /></p>
@@ -581,16 +699,16 @@ int main()
 }
 </code></pre>
 <p><img src="formatted_io/img/input_cpp.png" alt="input cpp code" /></p>
-<h3 id="編譯--執行-hello-world-1"><a class="header" href="#編譯--執行-hello-world-1">編譯 &amp; 執行 Hello world!</a></h3>
+<h3 id="編譯--執行-hello-world-2"><a class="header" href="#編譯--執行-hello-world-2">編譯 &amp; 執行 Hello world!</a></h3>
 <p>In VSCode Terminal:</p>
 <pre><code class="language-console">$ g++ test.cpp
 $ ./a.out
 Hello C++ World from VS Code and the C++ extension! 
 $ 
 </code></pre>
-<h3 id="debugger-1"><a class="header" href="#debugger-1">Debugger</a></h3>
+<h3 id="debugger-2"><a class="header" href="#debugger-2">Debugger</a></h3>
 <p>可以設置中斷點，方便程式除錯。</p>
-<h4 id="launchjson-1"><a class="header" href="#launchjson-1"><code>launch.json</code></a></h4>
+<h4 id="launchjson-2"><a class="header" href="#launchjson-2"><code>launch.json</code></a></h4>
 <p>In VSCode: <code>Exploer -&gt; New Folder</code></p>
 <p>輸入 <code>.vscode</code></p>
 <p><img src="formatted_io/img/new_folder.png" alt="new folder icon" /></p>
@@ -622,7 +740,7 @@ $
     ]
 }
 </code></pre>
-<h4 id="編譯--執行-debugger-1"><a class="header" href="#編譯--執行-debugger-1">編譯 &amp; 執行 Debugger</a></h4>
+<h4 id="編譯--執行-debugger-2"><a class="header" href="#編譯--執行-debugger-2">編譯 &amp; 執行 Debugger</a></h4>
 <p>In VSCode Terminal:</p>
 <pre><code class="language-console">$ g++ -g test.cpp
 $ 
@@ -633,7 +751,119 @@ $
 <p>In VSCode: <code>Run -&gt; Start Debugging F5</code></p>
 <p><img src="formatted_io/img/start_gdb.png" alt="start debugging" /></p>
 <p><img src="formatted_io/img/run_gdb.png" alt="run gdb" /></p>
-<h2 id="設定-vscode-環境-windows"><a class="header" href="#設定-vscode-環境-windows">設定 VSCode 環境 (Windows)</a></h2>
+<p>Reference: </p>
+<ul>
+<li><a href="https://code.visualstudio.com/docs/cpp/config-linux">Get Started with C++ on Linux in Visual Studio Code</a></li>
+<li><a href="https://code.visualstudio.com/docs/cpp/config-clang-mac">Configure VS Code for Clang/LLVM on macOS</a></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="visual-studio-code-tutorial-wslwindows--mingw"><a class="header" href="#visual-studio-code-tutorial-wslwindows--mingw">Visual Studio Code Tutorial (WSL/windows + mingw)</a></h1>
+<h2 id="設定-vscode-環境-wsl"><a class="header" href="#設定-vscode-環境-wsl">設定 VSCode 環境 (WSL)</a></h2>
+<h3 id="安裝-wsl--gcc"><a class="header" href="#安裝-wsl--gcc">安裝 WSL &amp; GCC</a></h3>
+<p>Install WSL: <a href="https://docs.microsoft.com/en-us/windows/wsl/install">https://docs.microsoft.com/en-us/windows/wsl/install</a></p>
+<h4 id="啟動-wsl-ubuntu"><a class="header" href="#啟動-wsl-ubuntu">啟動 WSL Ubuntu</a></h4>
+<p><img src="formatted_io/img/start-ubuntu.png" alt="start ubuntu" /></p>
+<p>在 <strong>WSL Ubuntu</strong> 輸入以下指令：</p>
+<pre><code class="language-bash">sudo apt update
+sudo apt install -y build-essential g++ gdb
+g++ -v
+</code></pre>
+<p>Wrong:</p>
+<p><img src="formatted_io/img/g++_wrong.png" alt="g++ wrong" /></p>
+<p>Correct:</p>
+<p><img src="formatted_io/img/g++_correct.png" alt="g++ correct" /></p>
+<h3 id="安裝-vscode--remote---wsl-plugin"><a class="header" href="#安裝-vscode--remote---wsl-plugin">安裝 VSCode &amp; Remote - WSL plugin</a></h3>
+<p>Install VSCode: <a href="https://code.visualstudio.com/docs/setup/linux">https://code.visualstudio.com/docs/setup/linux</a></p>
+<p>Install the Remote - WSL extension for VSCode: <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl">https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl</a></p>
+<h3 id="新增專案-hello-world-3"><a class="header" href="#新增專案-hello-world-3">新增專案 (Hello world!)</a></h3>
+<p>在 <strong>WSL Ubuntu</strong> 輸入以下指令：</p>
+<pre><code class="language-console">$ mkdir projects
+$ cd projects
+$ code .
+</code></pre>
+<p>Correct:</p>
+<p><img src="formatted_io/img/file-explorer-wsl.png" alt="wsl correct 1" /></p>
+<p><img src="formatted_io/img/wsl-status-bar.png" alt="wsl correct 2" /></p>
+<p>In VSCode: <code>Exploer -&gt; New File</code></p>
+<p>輸入 <code>test.cpp</code></p>
+<p><img src="formatted_io/img/new_file.png" alt="new file icon" /></p>
+<p>在文字輸入區輸入以下程式碼</p>
+<pre><code class="language-c++">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;string&gt;
+
+using namespace std;
+
+int main()
+{
+    vector&lt;string&gt; msg {&quot;Hello&quot;, &quot;C++&quot;, &quot;World&quot;, &quot;from&quot;, &quot;VS Code&quot;, &quot;and the C++ extension!&quot;};
+
+    for (const string&amp; word : msg)
+    {
+        cout &lt;&lt; word &lt;&lt; &quot; &quot;;
+    }
+    cout &lt;&lt; endl;
+}
+</code></pre>
+<p><img src="formatted_io/img/input_cpp.png" alt="input cpp code" /></p>
+<h3 id="安裝-wsl-c-plugin"><a class="header" href="#安裝-wsl-c-plugin">安裝 WSL C++ plugin</a></h3>
+<p>Install the C++ extension for VSCode: <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools">https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools</a></p>
+<p>Correct:</p>
+<p><img src="formatted_io/img/install-in-wsl.png" alt="c++ in wsl" /></p>
+<h3 id="編譯--執行-hello-world-3"><a class="header" href="#編譯--執行-hello-world-3">編譯 &amp; 執行 Hello world!</a></h3>
+<p>In VSCode: <code>Terminal -&gt; New Terminal</code></p>
+<p><img src="formatted_io/img/create_terminal.png" alt="create terminal" /></p>
+<p>In VSCode Terminal:</p>
+<pre><code class="language-console">$ g++ test.cpp
+$ ./a.out
+Hello C++ World from VS Code and the C++ extension! 
+$ 
+</code></pre>
+<h3 id="debugger-3"><a class="header" href="#debugger-3">Debugger</a></h3>
+<p>可以設置中斷點，方便程式除錯。</p>
+<h4 id="launchjson-3"><a class="header" href="#launchjson-3"><code>launch.json</code></a></h4>
+<p>In VSCode: <code>Exploer -&gt; New Folder</code></p>
+<p>輸入 <code>.vscode</code></p>
+<p><img src="formatted_io/img/new_folder.png" alt="new folder icon" /></p>
+<p>In VSCode: <code>Exploer -&gt; New File</code></p>
+<p>輸入 <code>launch.json</code></p>
+<p>在文字輸入區輸入以下設定檔</p>
+<pre><code class="language-json">{
+    &quot;version&quot;: &quot;0.2.0&quot;,
+    &quot;configurations&quot;: [
+        {
+            &quot;name&quot;: &quot;(gdb) Launch&quot;,
+            &quot;type&quot;: &quot;cppdbg&quot;,
+            &quot;request&quot;: &quot;launch&quot;,
+            &quot;program&quot;: &quot;${workspaceFolder}/a.out&quot;,
+            &quot;args&quot;: [],
+            &quot;stopAtEntry&quot;: false,
+            &quot;cwd&quot;: &quot;${workspaceFolder}&quot;,
+            &quot;environment&quot;: [],
+            &quot;externalConsole&quot;: false,
+            &quot;MIMode&quot;: &quot;gdb&quot;,
+            &quot;setupCommands&quot;: [
+                {
+                    &quot;description&quot;: &quot;Enable pretty-printing for gdb&quot;,
+                    &quot;text&quot;: &quot;-enable-pretty-printing&quot;,
+                    &quot;ignoreFailures&quot;: true
+                }
+            ]
+        }
+    ]
+}
+</code></pre>
+<h4 id="編譯--執行-debugger-3"><a class="header" href="#編譯--執行-debugger-3">編譯 &amp; 執行 Debugger</a></h4>
+<p>In VSCode Terminal:</p>
+<pre><code class="language-console">$ g++ -g test.cpp
+$ 
+</code></pre>
+<p>插入中斷點</p>
+<p>在要中斷的程式碼行號左邊點一下</p>
+<p><img src="formatted_io/img/insert_breakpoint.png" alt="insert breakpoint" /></p>
+<p>In VSCode: <code>Run -&gt; Start Debugging F5</code></p>
+<p><img src="formatted_io/img/start_gdb.png" alt="start debugging" /></p>
+<p><img src="formatted_io/img/run_gdb.png" alt="run gdb" /></p>
+<h2 id="設定-vscode-環境-windows--mingw"><a class="header" href="#設定-vscode-環境-windows--mingw">設定 VSCode 環境 (Windows + mingw)</a></h2>
 <p>Credit: <a href="https://github.com/CNOCycle/cpp_tutorial">CNOCycle/cpp_tutorial by E. Chen</a></p>
 <h3 id="安裝步驟"><a class="header" href="#安裝步驟">安裝步驟</a></h3>
 <ol>
@@ -707,13 +937,8 @@ $
 <p>Reference: </p>
 <ul>
 <li><a href="https://github.com/CNOCycle/cpp_tutorial">CNOCycle/cpp_tutorial by E. Chen</a></li>
-<li><a href="https://code.visualstudio.com/docs/cpp/config-linux">Get Started with C++ on Linux in Visual Studio Code</a></li>
-<li><a href="https://code.visualstudio.com/docs/cpp/config-mingw">Get Started with C++ and Mingw-w64 in Visual Studio Code</a></li>
-</ul>
-<p>延伸資訊:</p>
-<ul>
-<li><a href="https://code.visualstudio.com/docs/cpp/config-clang-mac">Configure VS Code for Clang/LLVM on macOS</a></li>
 <li><a href="https://code.visualstudio.com/docs/cpp/config-wsl">Get Started with C++ and Windows Subsystem for Linux in Visual Studio Code</a></li>
+<li><a href="https://code.visualstudio.com/docs/cpp/config-mingw">Get Started with C++ and Mingw-w64 in Visual Studio Code</a></li>
 </ul>
 
                     </main>
