@@ -121,6 +121,9 @@ Office Hours: Every Mon. 14:00 - 15:00
 
 Office Room: R2341, 2F, EECS Building
 
+Note: 若要來研究室詢問問題，請 **一定要預約時間** ，臨時來研究室詢問 **不保證** 能夠當下開放詢問。
+若要約 teams 詢問也可以約 Office Hour 時段詢問。
+
 ## TA infos
 
 許廷碩 [E-mail: tim890727@gmail.com](mailto:tim890727@gmail.com)
