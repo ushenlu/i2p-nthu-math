@@ -117,7 +117,8 @@ After class, students can use the discussion forum in the NTHU eeclass or make a
 
 洪奕文 [E-mail: s106062802@m106.nthu.edu.tw](mailto:s106062802@m106.nthu.edu.tw)
 
-Office Hours: Every Thur. 14:00 - 15:30
+Office Hours: Every Mon. 14:00 - 15:00
+Office Room: R2341, 2F, EECS Building
 
 ## TA infos
 
