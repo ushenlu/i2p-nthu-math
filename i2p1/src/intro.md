@@ -84,8 +84,14 @@ After class, students can use the discussion forum in the NTHU eeclass or make a
 
 ## 課程資訊
 
+* 課程上課時間：每週四 15:30 - 18:10
+    * 前 1 - 1.5 小時講解今日主題
+    * 之後時間開放同學於現場或線上即時提問
 * 課程上課地點：
-    * 綜三館 315 電腦教室 (座位47人，待系上防疫指引更新可出席人數)
+    * 綜三館 315 電腦教室 (座位47人，可出席人數 27 人)
+        * 實體上課出席登記: [程式設計一 實體上課登記 - Google 表單](https://docs.google.com/forms/d/15shTuTJ9NeNx7ZlAmeEAB1f6OKSCzZlQxOWp8_9yWFE/edit#responses)
+        * 出席人數查詢: [程式設計一 實體上課登記 - Google 雲端硬碟](https://drive.google.com/drive/folders/1lCZQwnqPLsQAyARJeXjzyKJkThQJ9cHR)
+        * 開放時間: 每週四 18:00 - 次週四 12:00
     * Youtube (Link: [上課錄影 - YouTube](https://www.youtube.com/playlist?list=PLEpArVdL-rlK1cLK7yxYcNHdL1rsvs5jB))
     * Teams (團隊代碼: 0l2nz9s)
 * 本課程開放加簽，原則上限制人數為 50 人，且參加實體課程需配合防疫規定。
@@ -109,6 +115,17 @@ After class, students can use the discussion forum in the NTHU eeclass or make a
 * 期中 / 期末評量採斷網上機測試。
     * 期中 / 期末評量會視疫情變化調整為其他方案。
 * 參加期中 / 期末評量需繳交評量前所有作業，未完整繳交該次評量前作業的同學不得參加。
+
+## 老師資訊
+
+洪奕文 [E-mail: s106062802@m106.nthu.edu.tw](mailto:s106062802@m106.nthu.edu.tw)
+
+Office Hours: Every Mon. 14:00 - 15:00
+
+Office Room: R2341, 2F, EECS Building
+
+Note: 若要來研究室詢問問題，請 **一定要預約時間** ，臨時來研究室詢問 **不保證** 能夠當下開放詢問。
+若要約 teams 詢問也可以約 Office Hour 時段詢問。
 
 ## TA infos
 

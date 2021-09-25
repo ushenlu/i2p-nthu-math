@@ -15,7 +15,7 @@ int main(void){
 
 * 輸入：學生學號
 * 輸出：Hello world 文字及學生學號
-* 檔名：lab1_p1_<學號>.cpp (e.g. lab1_p1_106062802.cpp)
+* 檔名：lab1_1_<學號>.cpp (e.g. lab1_1_106062802.cpp)
 
 程式需提示使用者輸入學號，程式需輸出 `Hello world!` 以及使用者輸入的學號。
 
