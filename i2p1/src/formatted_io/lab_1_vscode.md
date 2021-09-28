@@ -317,8 +317,6 @@ $
 
 In VSCode: `Run -> Start Debugging F5`
 
-![start debugging](img/start_gdb.png)
-
 ![run gdb](img/run_gdb.png)
 
 ## 使用 VSCode server
