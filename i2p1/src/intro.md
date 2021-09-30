@@ -42,35 +42,35 @@ After class, students can use the discussion forum in the NTHU eeclass or make a
 週次皆為暫定安排，會依實際授課情形調整。
 
 | 週次 (Week) | 主題 (Theme)                   |                              |
-|:-----------:|:-------------------------------|:-----------------------------|
-| Week 2      | 程式設計 & C/C++ 語言基本概念  | Basic Concept of Programming |
+| :---------: | :----------------------------- | :--------------------------- |
+|   Week 2    | 程式設計 & C/C++ 語言基本概念  | Basic Concept of Programming |
 |             |                                | & C/C++ Language             |
 |             | 資料型態 & 格式化輸出與輸入(1) | Data Type & Formatted        |
 |             |                                | Input/Output(1)              |
-| Week 3      | 資料型態 & 格式化輸出與輸入(2) | Data Type & Formatted        |
+|   Week 3    | 資料型態 & 格式化輸出與輸入(2) | Data Type & Formatted        |
 |             |                                | Input/Output(2)              |
-| Week 4      | 資料型態 & 格式化輸出與輸入(3) | Data Type & Formatted        |
+|   Week 4    | 資料型態 & 格式化輸出與輸入(3) | Data Type & Formatted        |
 |             |                                | Input/Output(3)              |
 |             | 運算子與運算式                 | Operator & expression        |
-| Week 5      | 分支敘述                       | Branch Statement             |
+|   Week 5    | 分支敘述                       | Branch Statement             |
 |             | 迴圈敘述(1)                    | Loop Statement(1)            |
-| Week 6      | 迴圈敘述(2)                    | Loop Statement(2)            |
-| Week 7      | 陣列與字串(1)                  | Array & String(1)            |
-| Week 8      | 陣列與字串(2)                  | Array & String(2)            |
-| Week 9      | 陣列與字串(3)                  | Array & String(3)            |
+|   Week 6    | 迴圈敘述(2)                    | Loop Statement(2)            |
+|   Week 7    | 陣列與字串(1)                  | Array & String(1)            |
+|   Week 8    | 陣列與字串(2)                  | Array & String(2)            |
+|   Week 9    | 陣列與字串(3)                  | Array & String(3)            |
 |             | 位元處裡                       | Bit manipulation             |
-| Week 10     | 期中評量                       | Midterm exam                 |
-| Week 11     | 函式 & 參考(1)                 | Function & Reference(1)      |
-| Week 12     | 函式 & 參考(2)                 | Function & Reference(2)      |
-| Week 13     | 函式 & 參考(3)                 | Function & Reference(3)      |
-| Week 14     | 結構(1)                        | Structure(1)                 |
-| Week 15     | 結構(2)                        | Structure(2)                 |
+|   Week 10   | 期中評量                       | Midterm exam                 |
+|   Week 11   | 函式 & 參考(1)                 | Function & Reference(1)      |
+|   Week 12   | 函式 & 參考(2)                 | Function & Reference(2)      |
+|   Week 13   | 函式 & 參考(3)                 | Function & Reference(3)      |
+|   Week 14   | 結構(1)                        | Structure(1)                 |
+|   Week 15   | 結構(2)                        | Structure(2)                 |
 |             | 檔案                           | File                         |
-| Week 16     | 記憶體管理                     | Memory management            |
-| Week 17     | 前置處理器                     | Preprocessor                 |
+|   Week 16   | 記憶體管理                     | Memory management            |
+|   Week 17   | 前置處理器                     | Preprocessor                 |
 |             | 例外處裡                       | Exception handling           |
 |             | 除錯 & 斷言                    | Debugging & assertion        |
-| Week 18     | 期末評量                       | Final exam                   |
+|   Week 18   | 期末評量                       | Final exam                   |
 
 ## 成績考核 (Evaluation)
 
