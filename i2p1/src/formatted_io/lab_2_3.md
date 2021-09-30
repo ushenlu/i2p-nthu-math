@@ -21,10 +21,10 @@ Example:
 ```console
 $ ./a.out
 Input real number (a), before decimal point: 1
-Input real number (a), after decimal point: 200000000
+Input real number (a), after decimal point: 2000000000
 The real number (a) is: 1.2
 Input real number (b), before decimal point: 12
-Input real number (b), after decimal point: 300000000
+Input real number (b), after decimal point: 3000000000
 The real number (b) is: 12.3
 (a) * (b) = 14.76
 ```
