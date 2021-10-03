@@ -46,6 +46,14 @@ Correct:
 
 ![wsl correct 2](img/wsl-status-bar.png)
 
+### 安裝 WSL C++ plugin
+
+Install the C++ extension for VSCode: [https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
+
+Correct:
+
+![c++ in wsl](img/install-in-wsl.png)
+
 In VSCode: `Exploer -> New File`
 
 輸入 `test.cpp`
@@ -74,14 +82,6 @@ int main()
 ```
 
 ![input cpp code](img/input_cpp.png)
-
-### 安裝 WSL C++ plugin
-
-Install the C++ extension for VSCode: [https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
-
-Correct:
-
-![c++ in wsl](img/install-in-wsl.png)
 
 ### 編譯 & 執行 Hello world!
 
