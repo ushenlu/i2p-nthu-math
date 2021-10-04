@@ -2,6 +2,8 @@
 
 ## 設定 VSCode 環境 (WSL)
 
+NOTE: 安裝教學影片 [WSL Tutorial](https://youtu.be/5HDa-unVCc4)
+
 ### 安裝 WSL & GCC
 
 Install WSL: [https://docs.microsoft.com/en-us/windows/wsl/install](https://docs.microsoft.com/en-us/windows/wsl/install)
