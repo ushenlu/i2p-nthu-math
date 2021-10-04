@@ -390,52 +390,9 @@ int main(void)
 <h4 id="others"><a class="header" href="#others">others</a></h4>
 <p><a href="https://zh.wikipedia.org/wiki/UTF-8">UTF-8</a>, <a href="https://zh.wikipedia.org/wiki/UTF-16">UTF-16</a>,
 <a href="https://zh.wikipedia.org/wiki/%E5%A4%A7%E4%BA%94%E7%A2%BC">Big5</a>, <a href="https://zh.wikipedia.org/wiki/Shift_JIS">Shift_JIS</a>, etc.</p>
-<h2 id="io-buffer--控制字元escape-character"><a class="header" href="#io-buffer--控制字元escape-character">I/O Buffer &amp; 控制字元(Escape Character)</a></h2>
-<h3 id="io-buffer"><a class="header" href="#io-buffer">I/O Buffer</a></h3>
-<p>當你使用 <code>std::cout</code> 把資料顯示到螢幕上時，其實並不會立即顯示在螢幕上，而是先送到所謂的 buffer 裡。
-要等到下列幾種情況才會做 flushing the buffer 的動作，把 buffer 裡的資料沖到螢幕上：</p>
-<ol>
-<li>當 buffer 滿的時候</li>
-<li>當 <code>\n</code> 字元出現的時候</li>
-<li>當接下來是做輸入的動作的時候 (譬如遇到 <code>std::cin</code>)。
-有時候為了讓資料能立刻顯示到螢幕上，可以用 fflush() 強迫把 buffer 裡的東西送出。
-當你發現有時候輸入或輸出的顯示順序會亂掉，可以試著在 <code>std::cout</code> 之後用 <code>std::flush</code> 來確保資料不會被卡在 buffer 裡。</li>
-</ol>
-<pre><code class="language-c++">#include &lt;iostream&gt;
-int main(int argc, char *argv[])
-{
-    int a = 0, b = 0, c = '\n';
-    std::cout &lt;&lt; &quot;a: &quot; 
-              &lt;&lt; a 
-              //&lt;&lt; std::flush
-              &lt;&lt; &quot;b: &quot; 
-              &lt;&lt; b 
-              //&lt;&lt; std::flush
-              &lt;&lt; &quot;a + b = &quot; 
-              &lt;&lt; c 
-              &lt;&lt; std::endl;
-    return 0;
-}
-</code></pre>
-<h3 id="控制字元escape-character"><a class="header" href="#控制字元escape-character">控制字元(Escape Character)</a></h3>
-<p>In ASCII: <code>0 ... 1F, 7F</code></p>
-<pre><code class="language-c++">#include &lt;iostream&gt;
-int main(int argc, char *argv[])
-{
-    char a = 'c', b = '\010', c = 'a';
-    std::cout &lt;&lt; &quot;a: &quot; 
-              &lt;&lt; a 
-              &lt;&lt; &quot;b: &quot; 
-              &lt;&lt; b 
-              &lt;&lt; &quot;c: &quot;
-              &lt;&lt; c 
-              &lt;&lt; std::endl;
-    return 0;
-}
-</code></pre>
 <p>Reference:</p>
 <ul>
-<li><a href="https://github.com/htchen/i2p-nthu/tree/master/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88%E4%B8%80/Introduction%20to%20programming">htchen/i2p-nthu by 陳煥宗老師</a></li>
+<li><a href="https://github.com/htchen/i2p-nthu/tree/master/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88%E4%B8%80">htchen/i2p-nthu by 陳煥宗老師</a></li>
 <li><a href="https://en.cppreference.com/w/cpp/language/main_function">Main function - cppreference.com</a></li>
 <li><a href="https://zamhuang.medium.com/vscode-%E5%A6%82%E4%BD%95%E5%9C%A8-vscode-%E4%B8%8A%E8%87%AA%E5%AE%9A%E7%BE%A9-c-%E7%9A%84-coding-style-c8eb199c57ce">【VSCode】如何在 VSCode 上自定義 C++ 的 coding style | by Zam Huang | Medium</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Naming_convention_(programming)">Naming convention (programming) - Wikipedia</a></li>
