@@ -290,58 +290,8 @@ int main(void)
 [UTF-8](https://zh.wikipedia.org/wiki/UTF-8), [UTF-16](https://zh.wikipedia.org/wiki/UTF-16),
 [Big5](https://zh.wikipedia.org/wiki/%E5%A4%A7%E4%BA%94%E7%A2%BC), [Shift_JIS](https://zh.wikipedia.org/wiki/Shift_JIS), etc.
 
-## I/O Buffer & 控制字元(Escape Character)
-
-### I/O Buffer
-
-當你使用 `std::cout` 把資料顯示到螢幕上時，其實並不會立即顯示在螢幕上，而是先送到所謂的 buffer 裡。
-要等到下列幾種情況才會做 flushing the buffer 的動作，把 buffer 裡的資料沖到螢幕上：
-1. 當 buffer 滿的時候
-2. 當 `\n` 字元出現的時候
-3. 當接下來是做輸入的動作的時候 (譬如遇到 `std::cin`)。
-有時候為了讓資料能立刻顯示到螢幕上，可以用 fflush() 強迫把 buffer 裡的東西送出。
-當你發現有時候輸入或輸出的顯示順序會亂掉，可以試著在 `std::cout` 之後用 `std::flush` 來確保資料不會被卡在 buffer 裡。
-
-``` c++
-#include <iostream>
-int main(int argc, char *argv[])
-{
-    int a = 0, b = 0, c = '\n';
-    std::cout << "a: " 
-              << a 
-              //<< std::flush
-              << "b: " 
-              << b 
-              //<< std::flush
-              << "a + b = " 
-              << c 
-              << std::endl;
-    return 0;
-}
-```
-
-### 控制字元(Escape Character)
-
-In ASCII: `0 ... 1F, 7F`
-
-``` c++
-#include <iostream>
-int main(int argc, char *argv[])
-{
-    char a = 'c', b = '\010', c = 'a';
-    std::cout << "a: " 
-              << a 
-              << "b: " 
-              << b 
-              << "c: "
-              << c 
-              << std::endl;
-    return 0;
-}
-```
-
 Reference:
-* [htchen/i2p-nthu by 陳煥宗老師](https://github.com/htchen/i2p-nthu/tree/master/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88%E4%B8%80/Introduction%20to%20programming)
+* [htchen/i2p-nthu by 陳煥宗老師](https://github.com/htchen/i2p-nthu/tree/master/程式設計一)
 * [Main function - cppreference.com](https://en.cppreference.com/w/cpp/language/main_function)
 * [【VSCode】如何在 VSCode 上自定義 C++ 的 coding style | by Zam Huang | Medium](https://zamhuang.medium.com/vscode-%E5%A6%82%E4%BD%95%E5%9C%A8-vscode-%E4%B8%8A%E8%87%AA%E5%AE%9A%E7%BE%A9-c-%E7%9A%84-coding-style-c8eb199c57ce)
 * [Naming convention (programming) - Wikipedia](https://en.wikipedia.org/wiki/Naming_convention_(programming))

@@ -82,5 +82,5 @@ $
 
 
 Reference:
-* [htchen/i2p-nthu by 陳煥宗老師](https://github.com/htchen/i2p-nthu/tree/master/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88%E4%B8%80/Introduction%20to%20programming)
+* [htchen/i2p-nthu by 陳煥宗老師](https://github.com/htchen/i2p-nthu/tree/master/程式設計一)
 * [Computer Architecture by 黃婷婷老師](https://ocw.nthu.edu.tw/ocw/index.php?page=course&cid=76)

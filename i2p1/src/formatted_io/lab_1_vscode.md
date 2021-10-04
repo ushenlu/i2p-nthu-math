@@ -144,6 +144,8 @@ In VSCode: `Run -> Start Debugging F5`
 
 ![run gdb](img/run_gdb.png)
 
+NOTE: 安裝完後可以在 `File -> Oper Recent` 開啟 WSL 的工作區 (後綴有 `WSL:Ubuntu`)
+
 ## 設定 VSCode 環境 (macOS)
 
 ### 安裝 g++

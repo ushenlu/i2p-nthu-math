@@ -32,6 +32,8 @@
 
 ![open_vscode](./img/fig_05-open_vscode.png)
 
+NOTE: 如果電腦上沒有 `test` 資料夾，需要在 `%USERPROFILE%` 中新增一個資料夾，名稱可以自由取。
+
 2. 信任開啟檔案，選擇`Yes, I trust`，如下圖示範：
 
 ![trust_vscode](./img/fig_06-trust_vscode.png)
