@@ -9,10 +9,10 @@
 ```text
 Input real number (a), before decimal point: <(a) before decimal point>
 Input real number (a), after decimal point: <(a) after decimal point>
-The real number is: <real number (a)>
+The real number (a) is: <real number (a)>
 Input real number (b), before decimal point: <(b) before decimal point>
 Input real number (b), after decimal point: <(b) after decimal point>
-The real number is: <real number (b)>
+The real number (b) is: <real number (b)>
 (a) + (b) = <real number (a) + (b)>
 ```
 
