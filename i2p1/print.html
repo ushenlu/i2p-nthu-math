@@ -1198,8 +1198,8 @@ int main(void)
 <div style="break-before: page; page-break-before: always;"></div><h1 id="lab-2-正實數加乘法器"><a class="header" href="#lab-2-正實數加乘法器">Lab 2: 正實數加/乘法器</a></h1>
 <h2 id="lab-2-1-正實數顯示-30"><a class="header" href="#lab-2-1-正實數顯示-30">Lab 2-1: 正實數顯示 (30%)</a></h2>
 <ul>
-<li>輸入：正實數的整數部分、正的小數部分 (1/1,000,000)，總共不超過 7 位數字。</li>
-<li>輸出：該正實數，小數部分結尾的複數的 0 不顯示。</li>
+<li>輸入：正實數的整數部分、正實數的小數部分 (1/1,000,000)，正實數的小數部分不超過 6 位數。</li>
+<li>輸出：該正實數，並且以 <code>float</code> 形式輸出。</li>
 <li>檔名：lab2_1_&lt;學號&gt;.cpp (e.g. lab2_1_106062802.cpp)</li>
 </ul>
 <p>程式需提示使用者輸入正實數的整數部分、正實數的小數部分，程式需輸出該正實數。</p>
@@ -1212,15 +1212,21 @@ The real number is: &lt;output real number&gt;
 Input real number, before decimal point: 123
 Input real number, after decimal point: 456000
 The real number is: 123.456
+
 $ ./a.out
 Input real number, before decimal point: 654321
 Input real number, after decimal point: 0
 The real number is: 654321
+
+$ ./a.out
+Input real number, before decimal point: 123
+Input real number, after decimal point: 456
+The real number is: 123
 </code></pre>
 <div style="break-before: page; page-break-before: always;"></div><h2 id="lab-2-2-正實數加法-30"><a class="header" href="#lab-2-2-正實數加法-30">Lab 2-2: 正實數加法 (30%)</a></h2>
 <ul>
-<li>輸入：兩正實數的整數部分、正實數的小數部分 (1/1,000,000)，各自的整數及小數共不超過 7 位數字</li>
-<li>輸出：兩正實數數值、兩正實數的和，各自的整數及小數共不超過 15 位數字，小數部分結尾的複數的 0 不顯示。</li>
+<li>輸入：兩正實數的整數部分、正實數的小數部分 (1/1,000,000)，正實數的小數部分不超過 6 位數。</li>
+<li>輸出：兩正實數數值、兩正實數的和，並且以 <code>double</code> 形式搭配 <code>std::fixed</code> 輸出。</li>
 <li>檔名：lab2_2_&lt;學號&gt;.cpp (e.g. lab2_2_106062802.cpp)</li>
 </ul>
 <p>程式需提示使用者輸入兩正實數的整數部分、正實數的小數部分，程式需輸出兩正實數數值、兩正實數的和。</p>
@@ -1236,16 +1242,16 @@ The real number is: &lt;real number (b)&gt;
 <pre><code class="language-console">$ ./a.out
 Input real number (a), before decimal point: 1
 Input real number (a), after decimal point: 234560
-The real number (a) is: 1.23456
+The real number (a) is: 1.234560
 Input real number (b), before decimal point: 12345
-Input real number (b), after decimal point: 600000
-The real number (b) is: 12345.6
-(a) + (b) = 12346.83456
+Input real number (b), after decimal point: 6
+The real number (b) is: 12345.000006
+(a) + (b) = 12346.234566
 </code></pre>
 <div style="break-before: page; page-break-before: always;"></div><h2 id="lab-2-3-正實數乘法-20"><a class="header" href="#lab-2-3-正實數乘法-20">Lab 2-3: 正實數乘法 (20%)</a></h2>
 <ul>
-<li>輸入：兩正實數的整數部分、正實數的小數部分 (1/10,000,000,000)，各自的整數及小數共不超過 10 位數字</li>
-<li>輸出：兩正實數數值、兩正實數的積，各自的整數及小數共不超過 15 位數字，小數部分結尾的複數的 0 不顯示。</li>
+<li>輸入：兩正實數的整數部分、正實數的小數部分 (1/10,000,000,000)，正實數的小數部分不超過 10 位數。</li>
+<li>輸出：兩正實數數值、兩正實數的積，並且以 <code>double</code> 形式搭配 <code>std::setprecision(15)</code> 輸出。</li>
 <li>檔名：lab2_3_&lt;學號&gt;.cpp (e.g. lab2_3_106062802.cpp)</li>
 </ul>
 <p>程式需提示使用者輸入兩正實數的整數部分、正實數的小數部分，程式需輸出兩正實數數值、兩正實數的積。</p>
@@ -1266,6 +1272,15 @@ Input real number (b), before decimal point: 12
 Input real number (b), after decimal point: 3000000000
 The real number (b) is: 12.3
 (a) * (b) = 14.76
+
+$ ./a.out
+Input real number (a), before decimal point: 1
+Input real number (a), after decimal point: 2000000000
+The real number (a) is: 1.2
+Input real number (b), before decimal point: 12
+Input real number (b), after decimal point: 3
+The real number (b) is: 12.0000000003
+(a) * (b) = 14.40000000036
 </code></pre>
 <div style="break-before: page; page-break-before: always;"></div><h2 id="lab-2-4-大正實數加法-10"><a class="header" href="#lab-2-4-大正實數加法-10">Lab 2-4: 大正實數加法 (10%)</a></h2>
 <ul>
