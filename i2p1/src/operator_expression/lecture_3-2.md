@@ -396,6 +396,3 @@ Reference:
 * [Assignment operators - cppreference.com](https://en.cppreference.com/w/cpp/language/operator_assignment)
 * [Other operators - cppreference.com](https://en.cppreference.com/w/cpp/language/operator_other)
 * [C++ Operator Precedence - cppreference.com](https://en.cppreference.com/w/cpp/language/operator_precedence)
-* [Two's complement - Wikipedia](https://en.wikipedia.org/wiki/Two%27s_complement)
-* [Single-precision floating-point format - Wikipedia](https://en.wikipedia.org/wiki/Single-precision_floating-point_format)
-* [Fast inverse square root - Wikipedia](https://en.wikipedia.org/wiki/Fast_inverse_square_root)
