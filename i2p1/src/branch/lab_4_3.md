@@ -63,6 +63,7 @@ Input real number (b), exponent: 10
 The real number (a) is: -1.23456789e+10
 The real number (b) is: -1.23456788e+10
 (a) * (b) = 1.52415786267337e+20
+
 $ ./a.out
 Simple scientific calculator
 1) plus (+)
@@ -72,6 +73,7 @@ Simple scientific calculator
 5) modulation (%)
 Please select the operator: 6
 Invalid input: 6
+
 $ ./a.out
 Simple scientific calculator
 1) plus (+)
@@ -84,6 +86,7 @@ You selected: /
 Input real number (a), sign: 0
 Input real number (a), mantissa: 12345678912
 Invalid input: 12345678912
+
 $ ./a.out
 Simple scientific calculator
 1) plus (+)
@@ -91,8 +94,8 @@ Simple scientific calculator
 3) multiplication (*)
 4) division (/)
 5) modulation (%)
-Please select the operator: 1
-You selected: +
+Please select the operator: 4
+You selected: /
 Input real number (a), sign: -100
 Input real number (a), mantissa: 123456789
 Input real number (a), exponent: 10
