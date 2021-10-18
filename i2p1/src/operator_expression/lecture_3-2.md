@@ -265,7 +265,7 @@ $
 |        less than         | `a < b`  |
 |       greater than       | `a > b`  |
 |  less than or equal to   | `a <= b` |
-| greater than or equal to | `a > b`  |
+| greater than or equal to | `a >= b` |
 
 ``` c++
 #include <iostream>
