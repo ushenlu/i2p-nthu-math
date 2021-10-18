@@ -27,6 +27,15 @@ Input real number (b), before decimal point: 987654321098765432
 Input real number (b), after decimal point: 987654321098765432
 The real number (b) is: 987654321098765432.987654321098765432
 (a) + (b) = 1111111110111111111.111111110111111110
+
+$ ./a.out
+Input real number (a), before decimal point: 1
+Input real number (a), after decimal point: 1
+The real number (a) is: 1.000000000000000001
+Input real number (b), before decimal point: 2
+Input real number (b), after decimal point: 2
+The real number (b) is: 2.000000000000000002
+(a) + (b) = 3.000000000000000003
 ```
 
 Reference:
