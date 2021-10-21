@@ -6,8 +6,8 @@
 尾數部分不超過 9 位數字。
 指數部分為 -126 至 +127。
 * 輸出：該實數的科學記號表示，有效位數為 9 位。
-該實數的 IEEE-754 single precision 數值，以科學記號表示，有效位數為 9 位。
-該實數與 IEEE-754 single precision 數值的差異絕對值，以科學記號表示，有效位數為 9 位。
+該實數的 IEEE-754 single precision 數值，以科學記號表示，有效位數 (precision) 顯示固定為 9 位。
+該實數與 IEEE-754 single precision 數值的差異絕對值，以科學記號表示，有效位數 (precision) 顯示固定為 9 位。
 * 檔名：lab3_3_<學號>.cpp (e.g. lab3_3_106062802.cpp)
 
 程式需提示使用者輸入實數的正負號 (sign)、實數的尾數 (mantissa, 1/100,000,000)、實數的指數部分 (exponent)，輸出該實數的科學記號表示、該實數的 IEEE-754 single precision 數值、該實數與 IEEE-754 single precision 數值的差異絕對值。
