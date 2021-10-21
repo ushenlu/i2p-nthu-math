@@ -24,3 +24,4 @@
     - [Lab 4-1: 計算機功能選擇](./branch/lab_4_1.md)
     - [Lab 4-2: 計算機四則運算](./branch/lab_4_2.md)
     - [Lab 4-3: 計算機輸入檢查及例外處理](./branch/lab_4_3.md)
+- [Lecture 5: Loop Statement (1)](./loop/lecture_5.md)
