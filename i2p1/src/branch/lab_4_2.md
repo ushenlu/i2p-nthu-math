@@ -32,7 +32,7 @@ Input real number (b), mantissa: <mantissa b>
 Input real number (b), exponent: <exponent b>
 The real number (a) is: <output real number a>
 The real number (b) is: <output real number b>
-(a) <+, -, *, /, %> (b) = <result>
+(a) <+, -, *, /> (b) = <result>
 ```
 
 Example:
