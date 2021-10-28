@@ -45,7 +45,7 @@ The number D, first part (input -1 to exit): 1⏎
 The number D, second part (input -1 to exit): 0⏎
 The number D = 1000000000000000000
 The reminder N % D = 2
-⏎
+
 The number N, first part (input -1 to exit): 1234567890123456789⏎
 Invalid input
 The number N, first part (input -1 to exit): 123456789123456789⏎
@@ -63,7 +63,7 @@ The number D, first part (input -1 to exit): 111111111111111111⏎
 The number D, second part (input -1 to exit): 111111111111111111⏎
 The number D = 111111111111111111111111111111111111
 The reminder N % D = 12345678012345678012345678012345678
-⏎
+
 The number N, first part (input -1 to exit): -1⏎
 
 $ ./a.out
