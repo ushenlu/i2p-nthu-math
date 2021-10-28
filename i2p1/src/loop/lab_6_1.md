@@ -19,7 +19,7 @@ a_n &= a_{n-2} - a_{n-1}, n \ge 3 \end{align}$$
 
 ```text
 The number of terms: <n>⏎
-The series: <a_1>, <a_2>, <a_3>, <a_n>⏎
+The series: <a_1>, <a_2>, <a_3>, <a_n>
 ```
 
 Example:
@@ -27,13 +27,13 @@ Example:
 ```console
 $ ./a.out
 The number of terms: 1⏎
-The series: 1⏎
+The series: 1
 
 $ ./a.out
 The number of terms: 2⏎
-The series: 1, 2⏎
+The series: 1, 2
 
 $ ./a.out
 The number of terms: 10⏎
-The series: 1, 2, -1, 3, -4, 7, -11, 18, -29, 47⏎
+The series: 1, 2, -1, 3, -4, 7, -11, 18, -29, 47
 ```
