@@ -27,11 +27,11 @@ return R
 ```text
 The number N, first part (input -1 to exit): <N_first>⏎
 The number N, second part (input -1 to exit): <N_second>⏎
-The number N = <N>⏎
+The number N = <N>
 The number D, first part (input -1 to exit): <D_first>⏎
 The number D, second part (input -1 to exit): <D_second>⏎
-The number D = <D>⏎
-The reminder N % D = <N % D>⏎
+The number D = <D>
+The reminder N % D = <N % D>
 ```
 
 Example:
@@ -40,41 +40,41 @@ Example:
 $ ./a.out
 The number N, first part (input -1 to exit): 2⏎
 The number N, second part (input -1 to exit): 2⏎
-The number N = 2000000000000000002⏎
+The number N = 2000000000000000002
 The number D, first part (input -1 to exit): 1⏎
 The number D, second part (input -1 to exit): 0⏎
-The number D = 1000000000000000000⏎
-The reminder N % D = 2⏎
+The number D = 1000000000000000000
+The reminder N % D = 2
 ⏎
 The number N, first part (input -1 to exit): 1234567890123456789⏎
-Invalid input⏎
+Invalid input
 The number N, first part (input -1 to exit): 123456789123456789⏎
 The number N, second part (input -1 to exit): 1234567890123456789⏎
-Invalid input⏎
+Invalid input
 The number N, first part (input -1 to exit): 123456789123456789⏎
 The number N, second part (input -1 to exit): 123456789123456789⏎
-The number N = 123456789123456789123456789123456789⏎
+The number N = 123456789123456789123456789123456789
 The number D, first part (input -1 to exit): 1111111110111111111⏎
-Invalid input⏎
+Invalid input
 The number D, first part (input -1 to exit): 111111111111111111⏎
 The number D, second part (input -1 to exit): 1111111110111111111⏎
-Invalid input⏎
+Invalid input
 The number D, first part (input -1 to exit): 111111111111111111⏎
 The number D, second part (input -1 to exit): 111111111111111111⏎
-The number D = 111111111111111111111111111111111111⏎
-The reminder N % D = 12345678012345678012345678012345678⏎
+The number D = 111111111111111111111111111111111111
+The reminder N % D = 12345678012345678012345678012345678
 ⏎
 The number N, first part (input -1 to exit): -1⏎
 
 $ ./a.out
 The number N, first part (input -1 to exit): -2⏎
-Invalid input⏎
+Invalid input
 The number N, first part (input -1 to exit): 1⏎
 The number N, second part (input -1 to exit): -2⏎
-Invalid input⏎
+Invalid input
 The number N, first part (input -1 to exit): 2⏎
 The number N, second part (input -1 to exit): 2⏎
-The number N = 2000000000000000002⏎
+The number N = 2000000000000000002
 The number D, first part (input -1 to exit): -1⏎
 ```
 
