@@ -3,7 +3,7 @@
 * 輸入：以 10 為底的實數。
   * 實數的正負號 (sign)，正負號輸入大於等於 0 為正數，小於 0 為負數。
   * 實數的尾數 (mantissa)，尾數部分固定 9 位數字，第一位不為 `0`，數值為輸入數字乘以\\( \frac{1}{100,000,000} \\)，。
-  * 實數的指數部分 (exponent)，指數部分為 -126 至 +127。
+  * 實數的指數部分 (exponent)，指數部分為 -38 至 +38。
 * 輸出：
   * 該實數的科學記號表示，有效位數為 9 位。
   * 該實數的 IEEE-754 single precision 數值，以科學記號表示，有效位數 ([Significant figures - Wikipedia](https://en.wikipedia.org/wiki/Significant_figures)) 顯示固定為 9 位。
