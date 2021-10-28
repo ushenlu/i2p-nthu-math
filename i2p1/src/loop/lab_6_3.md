@@ -22,7 +22,7 @@ return R
 * 檔名：lab6_3_<學號>.cpp (e.g. lab6_3_106062802.cpp)
 
 程式需提示使用者輸入兩自然數字 \\( N, D \\)，輸出兩自然數字相除的餘數 \\( N % D \\)。
-使用者會在每次輸入時輸入任意實數，請考慮所有合法 `long long` 型態的數字輸入。
+使用者會在每次輸入時輸入任意整數，請考慮所有合法 `long long` 型態的數字輸入。
 
 ```text
 The number N, first part (input -1 to exit): <N_first>⏎
