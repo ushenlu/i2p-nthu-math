@@ -27,11 +27,11 @@ return a
 ```text
 The number a, first part (input -1 to exit): <a_first>⏎
 The number a, second part (input -1 to exit): <a_second>
-The number a = <a>⏎
+The number a = <a>
 The number b, first part (input -1 to exit): <b_first>⏎
 The number b, second part (input -1 to exit): <b_second>⏎
-The number b = <b>⏎
-The gcd(a, b) = <gcd(a, b)>⏎
+The number b = <b>
+The gcd(a, b) = <gcd(a, b)>
 ```
 
 Example:
@@ -40,41 +40,41 @@ Example:
 $ ./a.out
 The number a, first part (input -1 to exit): 2⏎
 The number a, second part (input -1 to exit): 2⏎
-The number a = 2000000000000000002⏎
+The number a = 2000000000000000002
 The number b, first part (input -1 to exit): 1⏎
 The number b, second part (input -1 to exit): 0⏎
-The number b = 1000000000000000000⏎
-The gcd(a, b) = 2⏎
-⏎
+The number b = 1000000000000000000
+The gcd(a, b) = 2
+
 The number a, first part (input -1 to exit): 1234567890123456789⏎
-Invalid input⏎
+Invalid input
 The number a, first part (input -1 to exit): 123456789123456789⏎
 The number a, second part (input -1 to exit): 1234567890123456789⏎
-Invalid input⏎
+Invalid input
 The number a, first part (input -1 to exit): 123456789123456789⏎
 The number a, second part (input -1 to exit): 123456789123456789⏎
-The number a = 123456789123456789123456789123456789⏎
+The number a = 123456789123456789123456789123456789
 The number b, first part (input -1 to exit): 1111111110111111111⏎
-Invalid input⏎
+Invalid input
 The number b, first part (input -1 to exit): 111111111111111111⏎
 The number b, second part (input -1 to exit): 1111111110111111111⏎
-Invalid input⏎
+Invalid input
 The number b, first part (input -1 to exit): 111111111111111111⏎
 The number b, second part (input -1 to exit): 111111111111111111⏎
-The number b = 111111111111111111111111111111111111⏎
-The gcd(a, b) = 9000000009000000009000000009⏎
-⏎
+The number b = 111111111111111111111111111111111111
+The gcd(a, b) = 9000000009000000009000000009
+
 The number a, first part (input -1 to exit): -1⏎
 
 $ ./a.out
 The number a, first part (input -1 to exit): -2⏎
-Invalid input⏎
+Invalid input
 The number a, first part (input -1 to exit): 1⏎
 The number a, second part (input -1 to exit): -2⏎
-Invalid input⏎
+Invalid input
 The number a, first part (input -1 to exit): 2⏎
 The number a, second part (input -1 to exit): 2⏎
-The number a = 2000000000000000002⏎
+The number a = 2000000000000000002
 The number b, first part (input -1 to exit): -1⏎
 ```
 
