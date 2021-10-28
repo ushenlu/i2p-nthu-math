@@ -22,7 +22,7 @@ return a
 * 檔名：lab6_4_<學號>.cpp (e.g. lab6_4_106062802.cpp)
 
 程式需提示使用者輸入兩數字 \\( a, b \\)，輸出兩數字 \\( a, b \\) 的最大公因數 \\( gcd(a, b) \\)。
-使用者會在每次輸入時輸入任意實數，請考慮所有合法 `long long` 型態的數字輸入。
+使用者會在每次輸入時輸入任意整數，請考慮所有合法 `long long` 型態的數字輸入。
 
 ```text
 The number a, first part (input -1 to exit): <a_first>⏎
