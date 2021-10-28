@@ -26,7 +26,7 @@ return a
 ```text
 The number a (input 0 to exit): <a>⏎
 The number b (input 0 to exit): <b>⏎
-The gcd(a, b) = <gcd(a, b)>⏎
+The gcd(a, b) = <gcd(a, b)>
 ```
 
 Example:
@@ -35,20 +35,20 @@ Example:
 $ ./a.out
 The number a (input 0 to exit): 15⏎
 The number b (input 0 to exit): 17⏎
-The gcd(a, b) = 1⏎
-⏎
+The gcd(a, b) = 1
+
 The number a (input 0 to exit): 16⏎
 The number b (input 0 to exit): 8⏎
-The gcd(a, b) = 8⏎
-⏎
+The gcd(a, b) = 8
+
 The number a (input 0 to exit): 16⏎
 The number b (input 0 to exit): 0⏎
 
 $ ./a.out
 The number a (input 0 to exit): -1⏎
-Invalid input⏎
+Invalid input
 The number a (input 0 to exit): 16⏎
 The number b (input 0 to exit): -1⏎
-Invalid input⏎
+Invalid input
 The number a (input 0 to exit): 0⏎
 ```
