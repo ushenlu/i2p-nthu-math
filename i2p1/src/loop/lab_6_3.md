@@ -31,7 +31,7 @@ The number N = <N>
 The number D, first part (input -1 to exit): <D_first>⏎
 The number D, second part (input -1 to exit): <D_second>⏎
 The number D = <D>
-The reminder N % D = <N % D>
+The remainder N % D = <N % D>
 ```
 
 Example:
@@ -44,7 +44,7 @@ The number N = 2000000000000000002
 The number D, first part (input -1 to exit): 1⏎
 The number D, second part (input -1 to exit): 0⏎
 The number D = 1000000000000000000
-The reminder N % D = 2
+The remainder N % D = 2
 
 The number N, first part (input -1 to exit): 1234567890123456789⏎
 Invalid input
@@ -62,7 +62,7 @@ Invalid input
 The number D, first part (input -1 to exit): 111111111111111111⏎
 The number D, second part (input -1 to exit): 111111111111111111⏎
 The number D = 111111111111111111111111111111111111
-The reminder N % D = 12345678012345678012345678012345678
+The remainder N % D = 12345678012345678012345678012345678
 
 The number N, first part (input -1 to exit): -1⏎
 
