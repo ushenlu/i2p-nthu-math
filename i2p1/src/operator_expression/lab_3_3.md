@@ -32,3 +32,9 @@ The real number is: -1.23456789e+10
 The IEEE-754 single precision number is: -1.23456788e+10
 The difference (absolute value): 1.00000000e+02
 ```
+
+Reference Code:
+
+``` c++
+{{#include ieee754_error.cpp}}
+```
