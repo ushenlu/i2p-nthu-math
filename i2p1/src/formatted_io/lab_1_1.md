@@ -19,12 +19,17 @@ int main(void){
 
 程式需提示使用者輸入學號，程式需輸出 `Hello world!` 以及使用者輸入的學號。
 
+### Format
+
+``` text
+Your student ID: <your student id>⏎
+Hello world! student <your student id>
+```
+
+### Example
+
 ```console
 $ ./a.out
-Your student ID: <your student id>
-Hello world! student <your student id>
-
-$ ./a.out
-Your student ID: 106062802
+Your student ID: 106062802⏎
 Hello world! student 106062802
 ```

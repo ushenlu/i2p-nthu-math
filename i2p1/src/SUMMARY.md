@@ -33,3 +33,4 @@
     - [Lab 6-4: 大數最大公因數](loop/lab_6_4.md)
 - [Lecture 7: Array & String (2)](./array_vector/lecture_7.md)
     - [Lab 7: 真・大數四則運算](./array_vector/lab_7_1.md)
+- [Lecture 8: Array & String (3)](./array_vector/lecture_8.md)

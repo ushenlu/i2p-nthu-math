@@ -12,22 +12,24 @@
 
 程式需提示使用者輸入實數的正負號 (sign)、實數的尾數 (mantissa，輸入數字乘以\\( \frac{1}{100,000,000} \\))、實數的指數部分 (exponent)，輸出該實數的科學記號表示、該實數的 IEEE-754 single precision 數值、該實數與 IEEE-754 single precision 數值的差異絕對值。
 
+### Format
+
 ```text
-Input real number, sign: <sign>
-Input real number, mantissa: <mantissa>
-Input real number, exponent: <exponent>
+Input real number, sign: <sign>⏎
+Input real number, mantissa: <mantissa>⏎
+Input real number, exponent: <exponent>⏎
 The real number is: <output real number>
 The IEEE-754 single precision number is: <output float value>
 The difference (absolute value): <difference in abs>
 ```
 
-Example:
+### Example
 
 ```console
 $ ./a.out
-Input real number, sign: -100
-Input real number, mantissa: 123456789
-Input real number, exponent: 10
+Input real number, sign: -100⏎
+Input real number, mantissa: 123456789⏎
+Input real number, exponent: 10⏎
 The real number is: -1.23456789e+10
 The IEEE-754 single precision number is: -1.23456788e+10
 The difference (absolute value): 1.00000000e+02

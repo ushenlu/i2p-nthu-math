@@ -55,7 +55,8 @@ int main()
 Ref: [std::getline - cppreference.com](https://en.cppreference.com/w/cpp/string/basic_string/getline)
 
 > `getline` reads characters from an input stream and places them into a string:
->   2) Same as `getline(input, str, input.widen('\n'))`, that is, the default delimiter is the endline character.
+> 
+> 2. Same as `getline(input, str, input.widen('\n'))`, that is, the default delimiter is the endline character.
 
 ## `std::string` manipulations
 

@@ -6,34 +6,44 @@
 
 程式需提示使用者輸入兩正實數的整數部分、正實數的小數部分，程式需輸出兩正實數數值、兩正實數的積。
 
+### Format
+
 ```text
-Input real number (a), before decimal point: <(a) before decimal point>
-Input real number (a), after decimal point: <(a) after decimal point>
+Input real number (a), before decimal point: <(a) before decimal point>⏎
+Input real number (a), after decimal point: <(a) after decimal point>⏎
 The real number (a) is: <real number (a)>
-Input real number (b), before decimal point: <(b) before decimal point>
-Input real number (b), after decimal point: <(b) after decimal point>
+Input real number (b), before decimal point: <(b) before decimal point>⏎
+Input real number (b), after decimal point: <(b) after decimal point>⏎
 The real number (b) is: <real number (b)>
 (a) * (b) = <real number (a) * (b)>
 ```
 
-Example:
+### Example
 
 ```console
 $ ./a.out
-Input real number (a), before decimal point: 1
-Input real number (a), after decimal point: 2000000000
+Input real number (a), before decimal point: 1⏎
+Input real number (a), after decimal point: 2000000000⏎
 The real number (a) is: 1.2
-Input real number (b), before decimal point: 12
-Input real number (b), after decimal point: 3000000000
+Input real number (b), before decimal point: 12⏎
+Input real number (b), after decimal point: 3000000000⏎
 The real number (b) is: 12.3
 (a) * (b) = 14.76
 
 $ ./a.out
-Input real number (a), before decimal point: 1
-Input real number (a), after decimal point: 2000000000
+Input real number (a), before decimal point: 1⏎
+Input real number (a), after decimal point: 2000000000⏎
 The real number (a) is: 1.2
-Input real number (b), before decimal point: 12
-Input real number (b), after decimal point: 3
+Input real number (b), before decimal point: 12⏎
+Input real number (b), after decimal point: 3⏎
 The real number (b) is: 12.0000000003
 (a) * (b) = 14.40000000036
+```
+
+Reference Code:
+
+Credit: 金昆樂 (110021111)
+
+``` c++
+{{#include lab2_3_110021111.cpp}}
 ```

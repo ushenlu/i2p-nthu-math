@@ -6,25 +6,35 @@
 
 程式需提示使用者輸入兩正實數的整數部分、正實數的小數部分，程式需輸出兩正實數數值、兩正實數的和。
 
+### Format
+
 ```text
-Input real number (a), before decimal point: <(a) before decimal point>
-Input real number (a), after decimal point: <(a) after decimal point>
+Input real number (a), before decimal point: <(a) before decimal point>⏎
+Input real number (a), after decimal point: <(a) after decimal point>⏎
 The real number (a) is: <real number (a)>
-Input real number (b), before decimal point: <(b) before decimal point>
-Input real number (b), after decimal point: <(b) after decimal point>
+Input real number (b), before decimal point: <(b) before decimal point>⏎
+Input real number (b), after decimal point: <(b) after decimal point>⏎
 The real number (b) is: <real number (b)>
 (a) + (b) = <real number (a) + (b)>
 ```
 
-Example:
+### Example
 
 ```console
 $ ./a.out
-Input real number (a), before decimal point: 1
-Input real number (a), after decimal point: 234560
+Input real number (a), before decimal point: 1⏎
+Input real number (a), after decimal point: 234560⏎
 The real number (a) is: 1.234560
-Input real number (b), before decimal point: 12345
-Input real number (b), after decimal point: 6
+Input real number (b), before decimal point: 12345⏎
+Input real number (b), after decimal point: 6⏎
 The real number (b) is: 12345.000006
 (a) + (b) = 12346.234566
+```
+
+Reference Code:
+
+Credit: 金昆樂 (110021111)
+
+``` c++
+{{#include lab2_2_110021111.cpp}}
 ```

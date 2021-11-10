@@ -11,29 +11,40 @@
 
 程式需提示使用者輸入兩個實數的正負號 (sign)、實數的尾數 (mantissa，輸入數字乘以\\( \frac{1}{100,000,000} \\))、實數的指數部分 (exponent)，程式需輸出數字顯示比較結果。
 
+
+### Format
+
 ```text
-Input real number (a), sign: <sign a>
-Input real number (a), mantissa: <mantissa a>
-Input real number (a), exponent: <exponent a>
-Input real number (b), sign: <sign b>
-Input real number (b), mantissa: <mantissa b>
-Input real number (b), exponent: <exponent b>
+Input real number (a), sign: <sign a>⏎
+Input real number (a), mantissa: <mantissa a>⏎
+Input real number (a), exponent: <exponent a>⏎
+Input real number (b), sign: <sign b>⏎
+Input real number (b), mantissa: <mantissa b>⏎
+Input real number (b), exponent: <exponent b>⏎
 The real number (a) is: <output real number a>
 The real number (b) is: <output real number b>
 Compare result: <1, 0, or -1>
 ```
 
-Example:
+### Example
 
 ```console
 $ ./a.out
-Input real number (a), sign: -100
-Input real number (a), mantissa: 123456789
-Input real number (a), exponent: 10
-Input real number (b), sign: -10
-Input real number (b), mantissa: 123456788
-Input real number (b), exponent: 10
+Input real number (a), sign: -100⏎
+Input real number (a), mantissa: 123456789⏎
+Input real number (a), exponent: 10⏎
+Input real number (b), sign: -10⏎
+Input real number (b), mantissa: 123456788⏎
+Input real number (b), exponent: 10⏎
 The real number (a) is: -1.23456789e+10
 The real number (b) is: -1.23456788e+10
 Compare result: -1
+```
+
+Reference Code:
+
+Credit: 黃芷葳 (110021115)
+
+``` c++
+{{#include lab3_2_110021115.cpp}}
 ```

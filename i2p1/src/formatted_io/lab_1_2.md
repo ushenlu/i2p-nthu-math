@@ -8,14 +8,19 @@
 
 程式需提示使用者輸入一位員工的每週工作日數、該員工該週每天的工作時數 (假設每天皆相同)，程式需輸出該員工每週的工時。
 
+### Format
+
+``` text
+Employee workdays per week: <workdays/week>⏎
+Employee working hours per workday: <working hours/workday>⏎
+Employee works <working hours/week> hour(s) per week.
+```
+
+### Example
+
 ```console
 $ ./a.out
-Employee workdays per week: <workdays/week>
-Employee working hours per workday: <working hours/workday>
-Employee works <working hours/week> hour(s) per week.
-
-$ ./a.out
-Employee workdays per week: 6
-Employee working hours per workday: 12
+Employee workdays per week: 6⏎
+Employee working hours per workday: 12⏎
 Employee works 72 hour(s) per week.
 ```

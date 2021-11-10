@@ -8,27 +8,37 @@
 
 程式需提示使用者輸入正實數的整數部分、正實數的小數部分，程式需輸出該正實數。
 
+### Format
+
 ```text
-Input real number, before decimal point: <before decimal point>
-Input real number, after decimal point: <after decimal point>
+Input real number, before decimal point: <before decimal point>⏎
+Input real number, after decimal point: <after decimal point>⏎
 The real number is: <output real number>
 ```
 
-Example:
+### Example
 
 ```console
 $ ./a.out
-Input real number, before decimal point: 123
-Input real number, after decimal point: 456000
+Input real number, before decimal point: 123⏎
+Input real number, after decimal point: 456000⏎
 The real number is: 123.456
 
 $ ./a.out
-Input real number, before decimal point: 654321
-Input real number, after decimal point: 0
+Input real number, before decimal point: 654321⏎
+Input real number, after decimal point: 0⏎
 The real number is: 654321
 
 $ ./a.out
-Input real number, before decimal point: 123
-Input real number, after decimal point: 456
+Input real number, before decimal point: 123⏎
+Input real number, after decimal point: 456⏎
 The real number is: 123
+```
+
+Reference Code:
+
+Credit: 金昆樂 (110021111)
+
+``` c++
+{{#include lab2_1_110021111.cpp}}
 ```
