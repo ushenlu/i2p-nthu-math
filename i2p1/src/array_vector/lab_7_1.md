@@ -216,7 +216,7 @@ You selected: /
 Input integer number (a): -987654321098765432109876543210⏎
 Input integer number (b): -123456789012345678901234567890⏎
 (a) = -987654321098765432109876543210
-(b) = 123456789012345678901234567890
+(b) = -123456789012345678901234567890
 (a) / (b) = 8
 
 $ ./a.out
@@ -262,6 +262,16 @@ Big number calculator
 5) division (/)
 Please select the operator: +⏎
 Invalid input: +
+
+$ ./a.out
+Big number calculator
+1) display only
+2) plus (+)
+3) minus (-)
+4) multiplication (*)
+5) division (/)
+Please select the operator: 00000001⏎
+Invalid input: 00000001
 
 $ ./a.out
 Big number calculator

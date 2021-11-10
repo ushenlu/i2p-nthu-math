@@ -7,7 +7,7 @@ using namespace std ;
 
 int main()
 {
-    char buffer[10001]; // "+1" to store '0'
+    char buffer[10001]; // "+1" to store '\0'
     vector <int> a, b, n;
     int a_sign = 1, b_sign = 1 ;
 
