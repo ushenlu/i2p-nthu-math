@@ -218,7 +218,7 @@ example:
 
 ``` console
 $ ./a.out⏎
-Input a forumla: 1+2*3⏎
+Input a forumla: 1 + 2 * 3⏎
 Operands: 1 2 3
 Operators: + *
 Result: 3 9
