@@ -51,7 +51,8 @@ int main()
 {
   std::cout << "no setw: [" << 42 << "]\n"
             << "setw(6): [" << std::setw(6) << 42 << "]\n"
-            << "setw(6), several elements: [" << 89 << std::setw(6) << 12 << 34 << "]\n";
+            << "setw(6), several elements: [" << 89 
+            << std::setw(6) << 12 << 34 << "]\n";
 }
 ```
 
@@ -95,7 +96,9 @@ void print(const char *text, double num, cap c)
             << std::setw(24) << std::scientific << num << " │\n"
             << "│ " << std::setw(8) << text << " │ default    │ "
             << std::setw(24) << std::defaultfloat << num << " │\n";
-  std::cout << (c != cap::end ? "├──────────┼────────────┼──────────────────────────┤\n" : "└──────────┴────────────┴──────────────────────────┘\n");
+  std::cout << (c != cap::end ? 
+            "├──────────┼────────────┼──────────────────────────┤\n" 
+            : "└──────────┴────────────┴──────────────────────────┘\n");
 }
 
 int main()
