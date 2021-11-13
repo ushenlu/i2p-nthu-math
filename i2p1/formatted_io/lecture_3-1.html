@@ -188,7 +188,8 @@ int main()
 {
   std::cout &lt;&lt; &quot;no setw: [&quot; &lt;&lt; 42 &lt;&lt; &quot;]\n&quot;
             &lt;&lt; &quot;setw(6): [&quot; &lt;&lt; std::setw(6) &lt;&lt; 42 &lt;&lt; &quot;]\n&quot;
-            &lt;&lt; &quot;setw(6), several elements: [&quot; &lt;&lt; 89 &lt;&lt; std::setw(6) &lt;&lt; 12 &lt;&lt; 34 &lt;&lt; &quot;]\n&quot;;
+            &lt;&lt; &quot;setw(6), several elements: [&quot; &lt;&lt; 89 
+            &lt;&lt; std::setw(6) &lt;&lt; 12 &lt;&lt; 34 &lt;&lt; &quot;]\n&quot;;
 }
 </code></pre>
 <pre><code class="language-console">$ ./a.out
@@ -226,7 +227,9 @@ void print(const char *text, double num, cap c)
             &lt;&lt; std::setw(24) &lt;&lt; std::scientific &lt;&lt; num &lt;&lt; &quot; │\n&quot;
             &lt;&lt; &quot;│ &quot; &lt;&lt; std::setw(8) &lt;&lt; text &lt;&lt; &quot; │ default    │ &quot;
             &lt;&lt; std::setw(24) &lt;&lt; std::defaultfloat &lt;&lt; num &lt;&lt; &quot; │\n&quot;;
-  std::cout &lt;&lt; (c != cap::end ? &quot;├──────────┼────────────┼──────────────────────────┤\n&quot; : &quot;└──────────┴────────────┴──────────────────────────┘\n&quot;);
+  std::cout &lt;&lt; (c != cap::end ? 
+            &quot;├──────────┼────────────┼──────────────────────────┤\n&quot; 
+            : &quot;└──────────┴────────────┴──────────────────────────┘\n&quot;);
 }
 
 int main()

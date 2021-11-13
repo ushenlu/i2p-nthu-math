@@ -457,13 +457,20 @@ int main()
 
   int a = 6 % 10 / 2 + 1 % 2 &gt;= 3 || !+4 - 9 &lt;= -1;
   /***
-     * step 1 -&gt; int a = 6 % 10 / 2 + 1 % 2 &gt;= 3 || ! (+4) - 9 &lt;= (-1); (Unary plus and minus)
-     * step 2 -&gt; int a = 6 % 10 / 2 + 1 % 2 &gt;= 3 || (0) - 9 &lt;= (-1); (Logical NOT)
-     * step 3 -&gt; int a = (6 % 10 / 2) + (1 % 2) &gt;= 3 || 0 - 9 &lt;= (-1); (Arithmetic multiplication, division and remainder)
-     * step 4 -&gt; int a = (3 + 1) &gt;= 3 || (0 - 9) &lt;= (-1); (Arithmetic addition and substraction)
-     * step 5 -&gt; int a = (4 &gt; 3) || (-9 &lt;= -1); (Relational operators)
-     * step 6 -&gt; int a = (true || true); (Logical operators)
-     * step 7 -&gt; int a = true; (assignmnet operators)
+     * step 1 -&gt; int a = 6 % 10 / 2 + 1 % 2 &gt;= 3 || ! (+4) - 9 &lt;= (-1);
+      (Unary plus and minus)
+     * step 2 -&gt; int a = 6 % 10 / 2 + 1 % 2 &gt;= 3 || (0) - 9 &lt;= (-1);
+      (Logical NOT)
+     * step 3 -&gt; int a = (6 % 10 / 2) + (1 % 2) &gt;= 3 || 0 - 9 &lt;= (-1);
+      (Arithmetic multiplication, division and remainder)
+     * step 4 -&gt; int a = (3 + 1) &gt;= 3 || (0 - 9) &lt;= (-1);
+      (Arithmetic addition and substraction)
+     * step 5 -&gt; int a = (4 &gt; 3) || (-9 &lt;= -1);
+      (Relational operators)
+     * step 6 -&gt; int a = (true || true);
+      (Logical operators)
+     * step 7 -&gt; int a = true;
+      (assignmnet operators)
     ***/
   std::cout &lt;&lt; a &lt;&lt; std::endl;
 
