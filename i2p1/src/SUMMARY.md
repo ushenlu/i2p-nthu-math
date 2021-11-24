@@ -34,3 +34,5 @@
 - [Lecture 7: Array & String (2)](./array_vector/lecture_7.md)
     - [Lab 7: 真・大數四則運算](./array_vector/lab_7_1.md)
 - [Lecture 8: Array & String (3)](./array_vector/lecture_8.md)
+- [Midterm Exam](./midterm.md)
+- [Lecture 10: Function & Reference (1)](./function/lecture_10.md)
