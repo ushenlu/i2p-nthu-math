@@ -76,7 +76,8 @@ After class, students can use the discussion forum in the NTHU eeclass or make a
 
 暫定，會依實際授課情形調整。 (Tentative, will change during the course)
 
-學期成績 (Grade) ＝ 作業/實作 (Homework/Lab), 30% ＋ 期中考 (Midterm exam), 30% ＋ 期末考 (Final exam), 40 % + Bonus, 5%
+學期成績 (Grade) ＝ ~~作業/實作 (Homework/Lab), 30% ＋ 期中考 (Midterm exam), 30% ＋ 期末考 (Final exam), 40 % + Bonus, 5%~~
+(11/25 update) ＝ 作業/實作 (Homework/Lab), 50% ＋ 期中考 (Midterm exam), 25% ＋ Extra Homework, 15% ＋ 期末考 (Final exam), 25% + Bonus, 5%
 
 ## 相關網頁(Personal Website)
 
