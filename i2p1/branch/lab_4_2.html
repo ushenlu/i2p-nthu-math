@@ -212,93 +212,98 @@ The real number (b) is: -1.23456788e+10
 </code></pre>
 <p>Reference Code:</p>
 <p>Credit: 張晉赫 (110021109)</p>
-<pre><code class="language-c++">#include&lt;iomanip&gt;
-#include&lt;iostream&gt;
-#include&lt;math.h&gt;
-using namespace std ;
+<pre><code class="language-c++">#include &lt;iomanip&gt;
+#include &lt;iostream&gt;
+#include &lt;math.h&gt;
+using namespace std;
 
-int main(){
-    int selection ;
+int main()
+{
+    int selection;
     cout &lt;&lt; &quot;Simple scientific calculator \n&quot;
          &lt;&lt; &quot;1) plus (+) \n&quot;
          &lt;&lt; &quot;2) minus (-) \n&quot;
          &lt;&lt; &quot;3) multiplication (*) \n&quot;
-         &lt;&lt; &quot;4) division (/) \n&quot; ;
-    cout &lt;&lt; &quot;Please select the operator: &quot; ;
-    cin &gt;&gt; selection ;
-    switch(selection){
-        case 1:
-            cout &lt;&lt; &quot;You selected: +&quot; &lt;&lt; endl ;
-            break ;
-        case 2:
-            cout &lt;&lt; &quot;You selected: -&quot; &lt;&lt; endl ;
-            break ;
-        case 3:
-            cout &lt;&lt; &quot;You selected: *&quot; &lt;&lt; endl ;
-            break ;
-        case 4:
-            cout &lt;&lt; &quot;You selected: /&quot; &lt;&lt; endl ;
-            break ;
+         &lt;&lt; &quot;4) division (/) \n&quot;;
+    cout &lt;&lt; &quot;Please select the operator: &quot;;
+    cin &gt;&gt; selection;
+    switch (selection)
+    {
+    case 1:
+        cout &lt;&lt; &quot;You selected: +&quot; &lt;&lt; endl;
+        break;
+    case 2:
+        cout &lt;&lt; &quot;You selected: -&quot; &lt;&lt; endl;
+        break;
+    case 3:
+        cout &lt;&lt; &quot;You selected: *&quot; &lt;&lt; endl;
+        break;
+    case 4:
+        cout &lt;&lt; &quot;You selected: /&quot; &lt;&lt; endl;
+        break;
     }
 
-    int sign_a , exponent_a , sign_b , exponent_b ;
-    double mantissa_a , mantissa_b ;
+    int sign_a, exponent_a, sign_b, exponent_b;
+    double mantissa_a, mantissa_b;
 
-    cout &lt;&lt; &quot;Input real number (a), sign: &quot; ;
-    cin &gt;&gt; sign_a ;
-    cout &lt;&lt; &quot;Input real number (a), mantissa: &quot; ;
-    cin &gt;&gt; mantissa_a ;
-    cout &lt;&lt; &quot;Input real number (a), exponent: &quot; ;
-    cin &gt;&gt; exponent_a ;
+    cout &lt;&lt; &quot;Input real number (a), sign: &quot;;
+    cin &gt;&gt; sign_a;
+    cout &lt;&lt; &quot;Input real number (a), mantissa: &quot;;
+    cin &gt;&gt; mantissa_a;
+    cout &lt;&lt; &quot;Input real number (a), exponent: &quot;;
+    cin &gt;&gt; exponent_a;
 
-    cout &lt;&lt; &quot;Input real number (b), sign: &quot; ;
-    cin &gt;&gt; sign_b ;
-    cout &lt;&lt; &quot;Input real number (b), mantissa: &quot; ;
-    cin &gt;&gt; mantissa_b ;
-    cout &lt;&lt; &quot;Input real number (b), exponent: &quot; ;
-    cin &gt;&gt; exponent_b ;
+    cout &lt;&lt; &quot;Input real number (b), sign: &quot;;
+    cin &gt;&gt; sign_b;
+    cout &lt;&lt; &quot;Input real number (b), mantissa: &quot;;
+    cin &gt;&gt; mantissa_b;
+    cout &lt;&lt; &quot;Input real number (b), exponent: &quot;;
+    cin &gt;&gt; exponent_b;
 
-    mantissa_a = mantissa_a / 100000000 ;
-    mantissa_b = mantissa_b / 100000000 ;
+    mantissa_a = mantissa_a / 100000000;
+    mantissa_b = mantissa_b / 100000000;
 
-    double num_a = pow(10 , exponent_a) ;
-    double number_a = mantissa_a * num_a ;
-    if(sign_a &gt;= 0){
-        cout &lt;&lt; &quot;The real number (a) is: &quot; &lt;&lt; setprecision(8) &lt;&lt; scientific &lt;&lt; number_a &lt;&lt; endl ;
+    double num_a = pow(10, exponent_a);
+    double number_a = mantissa_a * num_a;
+    if (sign_a &gt;= 0)
+    {
+        cout &lt;&lt; &quot;The real number (a) is: &quot; &lt;&lt; setprecision(8) &lt;&lt; scientific &lt;&lt; number_a &lt;&lt; endl;
     }
-    else{
-        number_a = -number_a ;
-        cout &lt;&lt; &quot;The real number (a) is: &quot; &lt;&lt; setprecision(8) &lt;&lt; scientific &lt;&lt; number_a &lt;&lt; endl ;
-    }
-
-    double num_b = pow(10 , exponent_b) ;
-    double number_b = mantissa_b * num_b ;
-    if(sign_b &gt;= 0){
-        cout &lt;&lt; &quot;The real number (b) is: &quot; &lt;&lt; setprecision(8) &lt;&lt; scientific &lt;&lt; number_b &lt;&lt; endl ;
-    }
-    else{
-        number_b = -number_b ;
-        cout &lt;&lt; &quot;The real number (b) is: &quot; &lt;&lt; setprecision(8) &lt;&lt; scientific &lt;&lt; number_b &lt;&lt; endl ;
+    else
+    {
+        number_a = -number_a;
+        cout &lt;&lt; &quot;The real number (a) is: &quot; &lt;&lt; setprecision(8) &lt;&lt; scientific &lt;&lt; number_a &lt;&lt; endl;
     }
 
-
-    switch(selection){
-        case 1:
-            cout &lt;&lt; &quot;(a) + (b) = &quot; &lt;&lt; setprecision(14) &lt;&lt; number_a + number_b &lt;&lt; endl ;
-            break ;
-        case 2:
-            cout &lt;&lt; &quot;(a) - (b) = &quot; &lt;&lt; setprecision(14) &lt;&lt; number_a - number_b &lt;&lt; endl ;
-            break ;
-        case 3:
-            cout &lt;&lt; &quot;(a) * (b) = &quot; &lt;&lt; setprecision(14) &lt;&lt; number_a * number_b &lt;&lt; endl ;
-            break ;
-        case 4:
-            cout &lt;&lt; &quot;(a) / (b) = &quot; &lt;&lt; setprecision(14) &lt;&lt; number_a / number_b &lt;&lt; endl ;
-            break ;
+    double num_b = pow(10, exponent_b);
+    double number_b = mantissa_b * num_b;
+    if (sign_b &gt;= 0)
+    {
+        cout &lt;&lt; &quot;The real number (b) is: &quot; &lt;&lt; setprecision(8) &lt;&lt; scientific &lt;&lt; number_b &lt;&lt; endl;
     }
-     
-    return 0 ;
+    else
+    {
+        number_b = -number_b;
+        cout &lt;&lt; &quot;The real number (b) is: &quot; &lt;&lt; setprecision(8) &lt;&lt; scientific &lt;&lt; number_b &lt;&lt; endl;
+    }
 
+    switch (selection)
+    {
+    case 1:
+        cout &lt;&lt; &quot;(a) + (b) = &quot; &lt;&lt; setprecision(14) &lt;&lt; number_a + number_b &lt;&lt; endl;
+        break;
+    case 2:
+        cout &lt;&lt; &quot;(a) - (b) = &quot; &lt;&lt; setprecision(14) &lt;&lt; number_a - number_b &lt;&lt; endl;
+        break;
+    case 3:
+        cout &lt;&lt; &quot;(a) * (b) = &quot; &lt;&lt; setprecision(14) &lt;&lt; number_a * number_b &lt;&lt; endl;
+        break;
+    case 4:
+        cout &lt;&lt; &quot;(a) / (b) = &quot; &lt;&lt; setprecision(14) &lt;&lt; number_a / number_b &lt;&lt; endl;
+        break;
+    }
+
+    return 0;
 }
 </code></pre>
 

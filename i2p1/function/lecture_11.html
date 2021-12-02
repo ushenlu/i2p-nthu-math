@@ -865,51 +865,51 @@ void print_big_number(const vector&lt;int&gt; &amp;big_number, int base)
 <p>Wrong example: use others' local variable</p>
 <pre><code class="language-c++">// CPP program to illustrate
 // usage of local variables
-#include&lt;iostream&gt;
+#include &lt;iostream&gt;
 using namespace std;
 
 void func()
 {
-	// this variable is local to the
-	// function func() and cannot be
-	// accessed outside this function
-	int age=18;
+    // this variable is local to the
+    // function func() and cannot be
+    // accessed outside this function
+    int age = 18;
 }
 
 int main()
 {
-	cout&lt;&lt;&quot;Age is: &quot;&lt;&lt;age;
-	
-	return 0;
+    cout &lt;&lt; &quot;Age is: &quot; &lt;&lt; age;
+
+    return 0;
 }
 </code></pre>
 <p>Correct example: use owned local variable</p>
 <pre><code class="language-c++">// CPP program to illustrate
 // usage of local variables
-#include&lt;iostream&gt;
+#include &lt;iostream&gt;
 using namespace std;
 
 void func()
 {
-	// this variable is local to the
-	// function func() and cannot be
-	// accessed outside this function
-	int age=18;
-	cout&lt;&lt;age;
+    // this variable is local to the
+    // function func() and cannot be
+    // accessed outside this function
+    int age = 18;
+    cout &lt;&lt; age;
 }
 
 int main()
 {
-	cout&lt;&lt;&quot;Age is: &quot;;
-	func();
-	
-	return 0;
+    cout &lt;&lt; &quot;Age is: &quot;;
+    func();
+
+    return 0;
 }
 </code></pre>
 <h3 id="global-variable"><a class="header" href="#global-variable">Global Variable</a></h3>
 <pre><code class="language-c++">// CPP program to illustrate
 // usage of global variables
-#include&lt;iostream&gt;
+#include &lt;iostream&gt;
 using namespace std;
 
 // global variable
@@ -919,25 +919,25 @@ int global = 5;
 // within a function
 void display()
 {
-	cout&lt;&lt;global&lt;&lt;endl;
+    cout &lt;&lt; global &lt;&lt; endl;
 }
 
 // main function
 int main()
 {
-	display();
-	
-	// changing value of global
-	// variable from main function
-	global = 10;
-	display();
+    display();
+
+    // changing value of global
+    // variable from main function
+    global = 10;
+    display();
 }
 </code></pre>
 <h3 id="variable-lifetime"><a class="header" href="#variable-lifetime">Variable Lifetime</a></h3>
 <pre><code class="language-c++">// CPP program to illustrate
 // scope of local variables
 // and global variables together
-#include&lt;iostream&gt;
+#include &lt;iostream&gt;
 using namespace std;
 
 // global variable
@@ -946,18 +946,18 @@ int global = 5;
 // main function
 int main()
 {
-	// local variable with same
-	// name as that of global variable
-	
-	int global = 2;
-	cout &lt;&lt; global &lt;&lt; endl;
+    // local variable with same
+    // name as that of global variable
+
+    int global = 2;
+    cout &lt;&lt; global &lt;&lt; endl;
 }
 </code></pre>
 <p>To access global variable with same name as that of local variable, you need to use <code>::</code> to access global variable.</p>
 <pre><code class="language-c++">// C++ program to show that we can access a global
 // variable using scope resolution operator :: when
 // there is a local variable with same name
-#include&lt;iostream&gt;
+#include &lt;iostream&gt;
 using namespace std;
 
 // Global x
@@ -965,20 +965,22 @@ int x = 0;
 
 int main()
 {
-// Local x
-int x = 10;
-cout &lt;&lt; &quot;Value of global x is &quot; &lt;&lt; ::x;
-cout&lt;&lt; &quot;\nValue of local x is &quot; &lt;&lt; x;
-return 0;
+    // Local x
+    int x = 10;
+    cout &lt;&lt; &quot;Value of global x is &quot; &lt;&lt; ::x;
+    cout &lt;&lt; &quot;\nValue of local x is &quot; &lt;&lt; x;
+    return 0;
 }
 </code></pre>
 <h2 id="namespace"><a class="header" href="#namespace">Namespace</a></h2>
 <p>如果有多個 class 同名，需要使用 namespace 才能避免名稱衝突。</p>
-<pre><code class="language-c++">namespace a
+<pre><code class="language-c++">#include &lt;iostream&gt;
+
+namespace a
 {
     void print_char()
     {
-        cout &lt;&lt; &quot;a&quot; &lt;&lt; endl;
+        std::cout &lt;&lt; &quot;a&quot; &lt;&lt; std::endl;
     }
 }
 
@@ -986,7 +988,7 @@ namespace b
 {
     void print_char()
     {
-        cout &lt;&lt; &quot;b&quot; &lt;&lt; endl;
+        std::cout &lt;&lt; &quot;b&quot; &lt;&lt; std::endl;
     }
 }
 
