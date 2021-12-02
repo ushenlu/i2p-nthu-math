@@ -909,7 +909,7 @@ int main()
 
 ## Namespace
 
-如果有多個 class 同名，需要使用 namespace 才能避免名稱衝突。
+如果有多個 function 同名，需要使用 namespace 才能避免名稱衝突。
 
 ``` c++
 #include <iostream>
