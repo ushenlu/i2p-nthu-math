@@ -36,3 +36,4 @@
 - [Lecture 8: Array & String (3)](./array_vector/lecture_8.md)
 - [Midterm Exam](./midterm.md)
 - [Lecture 10: Function & Reference (1)](./function/lecture_10.md)
+- [Lecture 11: Function & Reference (2)](./function/lecture_11.md)

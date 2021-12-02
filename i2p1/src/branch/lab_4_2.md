@@ -57,3 +57,10 @@ The real number (b) is: -1.23456788e+10
 (a) * (b) = 1.52415786267337e+20
 ```
 
+Reference Code:
+
+Credit: 張晉赫 (110021109)
+
+``` c++
+{{#include lab4_2_110021109.cpp}}
+```

@@ -101,3 +101,17 @@ Input real number (b), sign: -10
 Input real number (b), mantissa: 0
 Invalid input
 ```
+
+Reference Code:
+
+Credit: 郭羽芹 (110021104)
+
+``` c++
+{{#include lab4_3_110021104.cpp}}
+```
+
+Credit: 林元鴻 (110021120)
+
+``` c++
+{{#include lab4_3_110021120.cpp}}
+```

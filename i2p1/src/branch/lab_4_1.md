@@ -34,3 +34,17 @@ Simple scientific calculator
 Please select the operator: 3
 You selected: *
 ```
+
+Reference Code:
+
+`if ... else ...`: Credit: 許景煬 (107071017)
+
+``` c++
+{{#include lab4_1_107071017.cpp}}
+```
+
+`switch ... case ...`: Credit: 陳欣妤 (110021108)
+
+``` c++
+{{#include lab4_1_110021108.cpp}}
+```
