@@ -787,22 +787,22 @@ Wrong example: use others' local variable
 ``` c++
 // CPP program to illustrate
 // usage of local variables
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 void func()
 {
-	// this variable is local to the
-	// function func() and cannot be
-	// accessed outside this function
-	int age=18;
+    // this variable is local to the
+    // function func() and cannot be
+    // accessed outside this function
+    int age = 18;
 }
 
 int main()
 {
-	cout<<"Age is: "<<age;
-	
-	return 0;
+    cout << "Age is: " << age;
+
+    return 0;
 }
 ```
 
@@ -811,24 +811,24 @@ Correct example: use owned local variable
 ``` c++
 // CPP program to illustrate
 // usage of local variables
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 void func()
 {
-	// this variable is local to the
-	// function func() and cannot be
-	// accessed outside this function
-	int age=18;
-	cout<<age;
+    // this variable is local to the
+    // function func() and cannot be
+    // accessed outside this function
+    int age = 18;
+    cout << age;
 }
 
 int main()
 {
-	cout<<"Age is: ";
-	func();
-	
-	return 0;
+    cout << "Age is: ";
+    func();
+
+    return 0;
 }
 ```
 
@@ -837,7 +837,7 @@ int main()
 ``` c++
 // CPP program to illustrate
 // usage of global variables
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 // global variable
@@ -847,18 +847,18 @@ int global = 5;
 // within a function
 void display()
 {
-	cout<<global<<endl;
+    cout << global << endl;
 }
 
 // main function
 int main()
 {
-	display();
-	
-	// changing value of global
-	// variable from main function
-	global = 10;
-	display();
+    display();
+
+    // changing value of global
+    // variable from main function
+    global = 10;
+    display();
 }
 ```
 
@@ -868,7 +868,7 @@ int main()
 // CPP program to illustrate
 // scope of local variables
 // and global variables together
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 // global variable
@@ -877,11 +877,11 @@ int global = 5;
 // main function
 int main()
 {
-	// local variable with same
-	// name as that of global variable
-	
-	int global = 2;
-	cout << global << endl;
+    // local variable with same
+    // name as that of global variable
+
+    int global = 2;
+    cout << global << endl;
 }
 ```
 
@@ -891,7 +891,7 @@ To access global variable with same name as that of local variable, you need to 
 // C++ program to show that we can access a global
 // variable using scope resolution operator :: when
 // there is a local variable with same name
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 // Global x
@@ -899,11 +899,11 @@ int x = 0;
 
 int main()
 {
-// Local x
-int x = 10;
-cout << "Value of global x is " << ::x;
-cout<< "\nValue of local x is " << x;
-return 0;
+    // Local x
+    int x = 10;
+    cout << "Value of global x is " << ::x;
+    cout << "\nValue of local x is " << x;
+    return 0;
 }
 ```
 
@@ -912,11 +912,13 @@ return 0;
 如果有多個 class 同名，需要使用 namespace 才能避免名稱衝突。
 
 ``` c++
+#include <iostream>
+
 namespace a
 {
     void print_char()
     {
-        cout << "a" << endl;
+        std::cout << "a" << std::endl;
     }
 }
 
@@ -924,7 +926,7 @@ namespace b
 {
     void print_char()
     {
-        cout << "b" << endl;
+        std::cout << "b" << std::endl;
     }
 }
 
@@ -934,3 +936,4 @@ int main()
     b::print_char();
     return 0;
 }
+```
