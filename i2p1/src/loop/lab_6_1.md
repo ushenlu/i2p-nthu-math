@@ -45,7 +45,7 @@ Invalid input
 
 Reference Code:
 
-Credit: (110021110)
+Credit: 何宇智(110021110)
 
 ``` c++
 {{#include lab6_1_110021110.cpp}}
