@@ -81,7 +81,7 @@ After class, students can use the discussion forum in the NTHU eeclass or make a
 
 ## 相關網頁(Personal Website)
 
-課程網頁 (Course website): [https://stevenokm.github.io/i2p-nthu-math/i2p1](https://stevenokm.github.io/i2p-nthu-math/i2p1)
+課程網頁 (Course website): [https://stevenokm.github.io/i2p-nthu-math/i2p2](https://stevenokm.github.io/i2p-nthu-math/i2p2)
 
 ## 課程資訊
 
@@ -114,9 +114,7 @@ After class, students can use the discussion forum in the NTHU eeclass or make a
 
 * 期中 / 期末評量採斷網上機測試。
     * 期中 / 期末評量會視疫情變化調整為其他方案。
-* (11/25 update) 同學皆可參加期中 / 期末評量。~~但同學需繳交評量前所有作業，未於期中評量後一次作業的繳交期限前完整繳交該次評量前作業的同學 不得參加 該次評量成績不予計分。~~
-    * ~~期中評量前最後一次 Lab 為 Lab 7，則 Lab 1 - Lab 7 需在 Lab 8 的繳交期限前完成補交，期中評量成績才計分。~~
-    * ~~期末評量前的作業須於期末考後一週內完成繳交， 期末評量成績才計分。~~
+* 同學皆可參加期中 / 期末評量。
 
 ## 老師資訊
 
