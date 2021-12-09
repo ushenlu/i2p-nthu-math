@@ -55,7 +55,7 @@ The number a (input 0 to exit): 0⏎
 
 Reference Code:
 
-Credit: (110021116)
+Credit: 藍珮芳(110021116)
 
 ``` c++
 {{#include lab6_2_110021116.cpp}}
