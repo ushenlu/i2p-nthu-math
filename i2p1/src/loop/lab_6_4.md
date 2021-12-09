@@ -91,7 +91,7 @@ Reference:
 
 Reference Code:
 
-Credit: (110021134)
+Credit: 林暐晉(110021134)
 
 ``` c++
 {{#include lab6_4_110021134.cpp}}
