@@ -80,3 +80,11 @@ The number D, first part (input -1 to exit): -1⏎
 
 Reference:
 * [Big Number Calculator](https://www.calculator.net/big-number-calculator.html)
+
+Reference Code:
+
+Credit: (110021134)
+
+``` c++
+{{#include lab6_3_110021134.cpp}}
+```

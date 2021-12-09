@@ -37,3 +37,7 @@
 - [Midterm Exam](./midterm.md)
 - [Lecture 10: Function & Reference (1)](./function/lecture_10.md)
 - [Lecture 11: Function & Reference (2)](./function/lecture_11.md)
+- [Lecture 12: Function & Reference (3)](./function/lecture_12.md)
+    - [Lab 12-1: 整數指令列四則計算機顯示](./function/lab_12_1.md)
+    - [Lab 12-2: Infix 整數指令列四則計算機](./function/lab_12_2.md)
+    - [Lab 12-3: Postfix 整數指令列四則計算機](./function/lab_12_3.md)]

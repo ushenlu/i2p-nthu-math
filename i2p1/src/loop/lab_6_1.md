@@ -42,3 +42,11 @@ $ ./a.out
 The number of terms: -1⏎
 Invalid input
 ```
+
+Reference Code:
+
+Credit: (110021110)
+
+``` c++
+{{#include lab6_1_110021110.cpp}}
+```
