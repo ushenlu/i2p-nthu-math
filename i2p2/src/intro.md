@@ -2,7 +2,7 @@
 
 ## 課程說明 (Course Description)
 
-本課程之內容包括：C/C++ 語言基礎語法、程式寫作技巧與觀念及實作範例。透過課堂解釋實作範例搭配作業練習各主題的語法或技巧。
+本課程之內容包括：物件導向程式設計 (OOP)、C/C++ OOP 寫法、程式寫作技巧與觀念及實作範例。透過課堂解釋實作範例搭配作業練習各主題的語法或技巧。
 
 The course will introduce the basics of C/C++ and the concepts and skills of programming.
 Each theme will be instructed with examples and hands-on labs in-class or off-class.
@@ -76,12 +76,11 @@ After class, students can use the discussion forum in the NTHU eeclass or make a
 
 暫定，會依實際授課情形調整。 (Tentative, will change during the course)
 
-學期成績 (Grade) ＝ ~~作業/實作 (Homework/Lab), 30% ＋ 期中考 (Midterm exam), 30% ＋ 期末考 (Final exam), 40 % + Bonus, 5%~~
-(11/25 update) ＝ 作業/實作 (Homework/Lab), 50% ＋ 期中考 (Midterm exam), 25% ＋ Extra Homework, 15% ＋ 期末考 (Final exam), 25% + Bonus, 5%
+學期成績 (Grade) ＝ 作業/實作 (Homework/Lab), 50% ＋ 期中考 (Midterm exam), 25% ＋ 期末考 (Final exam), 25% + Bonus, 15%
 
 ## 相關網頁(Personal Website)
 
-課程網頁 (Course website): [https://stevenokm.github.io/i2p-nthu-math/i2p1](https://stevenokm.github.io/i2p-nthu-math/i2p1)
+課程網頁 (Course website): [https://stevenokm.github.io/i2p-nthu-math/i2p2](https://stevenokm.github.io/i2p-nthu-math/i2p2)
 
 ## 課程資訊
 
@@ -114,9 +113,7 @@ After class, students can use the discussion forum in the NTHU eeclass or make a
 
 * 期中 / 期末評量採斷網上機測試。
     * 期中 / 期末評量會視疫情變化調整為其他方案。
-* (11/25 update) 同學皆可參加期中 / 期末評量。~~但同學需繳交評量前所有作業，未於期中評量後一次作業的繳交期限前完整繳交該次評量前作業的同學 不得參加 該次評量成績不予計分。~~
-    * ~~期中評量前最後一次 Lab 為 Lab 7，則 Lab 1 - Lab 7 需在 Lab 8 的繳交期限前完成補交，期中評量成績才計分。~~
-    * ~~期末評量前的作業須於期末考後一週內完成繳交， 期末評量成績才計分。~~
+* 同學皆可參加期中 / 期末評量。
 
 ## 老師資訊
 

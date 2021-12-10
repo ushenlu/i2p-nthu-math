@@ -81,7 +81,7 @@ After class, students can use the discussion forum in the NTHU eeclass or make a
 
 ## 相關網頁(Personal Website)
 
-課程網頁 (Course website): [https://stevenokm.github.io/i2p-nthu-math/i2p2](https://stevenokm.github.io/i2p-nthu-math/i2p2)
+課程網頁 (Course website): [https://stevenokm.github.io/i2p-nthu-math/i2p1](https://stevenokm.github.io/i2p-nthu-math/i2p1)
 
 ## 課程資訊
 
