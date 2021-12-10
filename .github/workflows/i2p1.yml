@@ -29,3 +29,13 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./i2p1/book
           destination_dir: ./i2p1
+
+      - run: mdbook build i2p2
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.ref == 'refs/heads/main' }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./i2p2/book
+          destination_dir: ./i2p2
