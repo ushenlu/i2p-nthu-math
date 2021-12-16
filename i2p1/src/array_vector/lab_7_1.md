@@ -319,3 +319,9 @@ Invalid input: 0
 
 Reference:
 * [Big Number Calculator](https://www.calculator.net/big-number-calculator.html)
+
+Reference Code: TA
+
+``` c++
+{{#include lab7_TA.cpp}}
+```

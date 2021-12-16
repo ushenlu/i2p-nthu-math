@@ -41,3 +41,4 @@
     - [Lab 12-1: 整數指令列四則計算機顯示](./function/lab_12_1.md)
     - [Lab 12-2: Infix 整數指令列四則計算機](./function/lab_12_2.md)
     - [Lab 12-3: Postfix 整數指令列四則計算機](./function/lab_12_3.md)]
+- [Lecture 13: Structure (1)](./structure/lecture_13.md)
